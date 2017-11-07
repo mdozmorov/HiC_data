@@ -1,6 +1,6 @@
 # Hi-C data
 
-A (continuously updated) collection of references to Hi-C data. Focusing on human/mouse Hi-C data, with replicates.
+A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates.
 
 
 # Aidenlab.org - all HiC data released by Lieberman-Aiden group

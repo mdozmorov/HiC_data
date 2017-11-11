@@ -52,7 +52,7 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 - Schmitt, Anthony D., Ming Hu, Inkyung Jung, Zheng Xu, Yunjiang Qiu, Catherine L. Tan, Yun Li, et al. “A Compendium of Chromatin Contact Maps Reveals Spatially Active Regions in the Human Genome.” Cell Reports 17, no. 8 (November 2016): 2042–59. https://doi.org/10.1016/j.celrep.2016.10.061. Normal human cells, brain (dorsolateral prefrontal cortex, hippocampus), adrenal, bladder, lung, ovary, pancreas, etc. Some replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112
 
 
-# Selected studies
+# Brain
 
 ## [@Won:2016aa] - Geschwind paper on human brain Hi-C
 
@@ -66,6 +66,17 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 - Data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107. Four HiC replicates in each condition. Mouse embryonic stem cells (ESs), neural progenitors (NPCs), and cortical neurons (CNs), purified NPC and CN populations from neocortex (ncx_NPC, ncx_CN). Replicated RNA-seq and ChIP-seq (H3K4me3, H4K9me3, H3K27ac, H3K36me3).
 
 - `Bonev-Cavalli_mmc1.xlsx` - Table S1. Summary Statistics for the Datasets, http://www.cell.com/cms/attachment/2111760282/2083800642/mmc1.xlsx
+
+## ENCODE Phase 3
+
+Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Experiment&assay_slims=3D+chromatin+structure&assay_title=Hi-C&organ_slims=brain. Each experiment has two isogenic replicates
+
+- Brain microvascular endothelial cell, https://www.encodeproject.org/experiments/ENCSR507AHE/, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105544
+- Brain pericytes, https://www.encodeproject.org/experiments/ENCSR323QIP/, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105513
+- Astrocyte of the cerebellum, https://www.encodeproject.org/experiments/ENCSR011GNI/, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105194
+- Neuroblastoma, derived from a bone marrow metastasis, SK-N-DZ not treated and treated with dimethyl sulfoxide, https://www.encodeproject.org/experiments/ENCSR105KFX/, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105275
+- Neuroepithelioma, derived from metastatis, SK-N-MC, https://www.encodeproject.org/experiments/ENCSR834DXR/, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105914
+
 
 # Misc
 

@@ -2,6 +2,10 @@
 
 A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates.
 
+# 4D Nucleome Data Portal
+
+https://data.4dnucleome.org/ - downloadable data from key chromosome conformation capture papers
+
 
 # Aidenlab.org - all HiC data released by Lieberman-Aiden group
 

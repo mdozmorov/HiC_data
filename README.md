@@ -4,7 +4,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 
 # 4D Nucleome Data Portal
 
-https://data.4dnucleome.org/ - downloadable data from key chromosome conformation capture papers
+https://data.4dnucleome.org/ - downloadable data from key chromosome conformation capture papers. https://www.4dnucleome.org/software.html - alphabetical list of Hi-C software.
 
 
 # Aidenlab.org - all HiC data released by Lieberman-Aiden group

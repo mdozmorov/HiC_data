@@ -55,6 +55,10 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 - Schmitt, Anthony D., Ming Hu, Inkyung Jung, Zheng Xu, Yunjiang Qiu, Catherine L. Tan, Yun Li, et al. “A Compendium of Chromatin Contact Maps Reveals Spatially Active Regions in the Human Genome.” Cell Reports 17, no. 8 (November 2016): 2042–59. https://doi.org/10.1016/j.celrep.2016.10.061. Normal human cells, brain (dorsolateral prefrontal cortex, hippocampus), adrenal, bladder, lung, ovary, pancreas, etc. Some replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112
 
+# YUE lab Hi-C data
+
+Classical datasets for TAD idenrification, provided as raw and normalized matrices. http://promoter.bx.psu.edu/hi-c/download.html
+
 
 # Brain
 

@@ -89,7 +89,7 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 
 - Fraser, J., C. Ferrai, A. M. Chiariello, M. Schueler, T. Rito, G. Laudanno, M. Barbieri, et al. “Hierarchical Folding and Reorganization of Chromosomes Are Linked to Transcriptional Changes in Cellular Differentiation.” Molecular Systems Biology 11, no. 12 (December 23, 2015): 852–852. https://doi.org/10.15252/msb.20156492.
 
-`GSE59027` - mouse embryonic stem cells (ESC), neuronal progenitor cells (NPC) and neurons. Two datasets per cell type, digested using HindIII and NcoI enzymes. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027. Genomic coordinates for TADs are provided in http://msb.embopress.org/content/msb/11/12/852/DC5/embed/inline-supplementary-material-5.xls?download=true
+`GSE59027` - mouse embryonic stem cells (ESC), neuronal progenitor cells (NPC) and neurons. Two datasets per cell type, digested using HindIII and NcoI enzymes. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027. Genomic coordinates for TADs identified from NcoI datasets are provided in http://msb.embopress.org/content/msb/11/12/852/DC5/embed/inline-supplementary-material-5.xls?download=true
 
 
 # Misc
@@ -119,6 +119,8 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 ## Single cell Hi-C
 
 - Nagano, Takashi, Yaniv Lubling, Tim J. Stevens, Stefan Schoenfelder, Eitan Yaffe, Wendy Dean, Ernest D. Laue, Amos Tanay, and Peter Fraser. “Single-Cell Hi-C Reveals Cell-to-Cell Variability in Chromosome Structure.” Nature 502, no. 7469 (October 3, 2013): 59–64. https://doi.org/10.1038/nature12593. - Single-cell Hi-C. Mouse Th1 cells, 11 samples. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48262
+
+- Takashi Nagano et al., “Cell-Cycle Dynamics of Chromosomal Organization at Single-Cell Resolution,” Nature 547, no. 7661 (July 5, 2017): 61–67, https://doi.org/10.1038/nature23001. Single-cell Hi-C, mouse embryonic stem cells, diploid and haploid, over cell cycle, 45 samples. GEO link https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94489 and data on the pipeline page https://bitbucket.org/tanaylab/schic2/overview
 
 - Ramani, Vijay, Xinxian Deng, Ruolan Qiu, Kevin L Gunderson, Frank J Steemers, Christine M Disteche, William S Noble, Zhijun Duan, and Jay Shendure. “Massively Multiplex Single-Cell Hi-C.” Nature Methods 14, no. 3 (January 30, 2017): 263–66. https://doi.org/10.1038/nmeth.4155. - Single-cell Hi-C. Cell lines derived from mouse (primary mouse embryonic fibroblasts (MEFs), and the ‘Patski’ embryonic fibroblast line) and human cells (HeLa S3, the HAP1 cell line, K562, and GM12878. Human data - controlled access. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84920
 

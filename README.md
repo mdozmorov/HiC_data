@@ -96,6 +96,9 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 
 - Nagano, Takashi, Csilla Várnai, Stefan Schoenfelder, Biola-Maria Javierre, Steven W. Wingett, and Peter Fraser. “Comparison of Hi-C Results Using in-Solution versus in-Nucleus Ligation.” Genome Biology 16 (August 26, 2015): 175. https://doi.org/10.1186/s13059-015-0753-7. - comparing _in situ_ and _in solution_ HiC ligation protocol. Mouse liver cells and human ES cells. Two biological and two technical replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70181
 
+- Trussart, M., F. Serra, D. Bau, I. Junier, L. Serrano, and M. A. Marti-Renom. “Assessing the Limits of Restraint-Based 3D Modeling of Genomes and Genomic Domains.” Nucleic Acids Research 43, no. 7 (April 20, 2015): 3465–77. https://doi.org/10.1093/nar/gkv221. - TADbit - modeling 3D structures from Hi-C data. Hi-C matrix simulation methods. The contact maps and the underlying structures are at http://sgt.cnag.cat/3dg/datasets/ - simulated and real datasets, text files, square interaction matrices
+
+
 ## Cancer
 
 - Harewood, Louise, Kamal Kishore, Matthew D. Eldridge, Steven Wingett, Danita Pearson, Stefan Schoenfelder, V. Peter Collins, and Peter Fraser. “Hi-C as a Tool for Precise Detection and Characterisation of Chromosomal Rearrangements and Copy Number Variation in Human Tumours.” Genome Biology 18, no. 1 (December 2017). https://doi.org/10.1186/s13059-017-1253-8. - ten non-replicated Hi-C datasets. Two human lymphoblastoid cell lines with known chromosomal translocations (FY1199 and DD1618), transformed mouse cell line (EKLF), six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86), a normal human cell line control (GM07017). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879

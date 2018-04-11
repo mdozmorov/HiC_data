@@ -88,8 +88,9 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 ## Brain misc
 
 - Fraser, J., C. Ferrai, A. M. Chiariello, M. Schueler, T. Rito, G. Laudanno, M. Barbieri, et al. “Hierarchical Folding and Reorganization of Chromosomes Are Linked to Transcriptional Changes in Cellular Differentiation.” Molecular Systems Biology 11, no. 12 (December 23, 2015): 852–852. https://doi.org/10.15252/msb.20156492.
+    - `GSE59027` - mouse embryonic stem cells (ESC), neuronal progenitor cells (NPC) and neurons. Two datasets per cell type, digested using HindIII and NcoI enzymes. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027. Genomic coordinates for TADs identified from NcoI datasets are provided in http://msb.embopress.org/content/msb/11/12/852/DC5/embed/inline-supplementary-material-5.xls?download=true
 
-`GSE59027` - mouse embryonic stem cells (ESC), neuronal progenitor cells (NPC) and neurons. Two datasets per cell type, digested using HindIII and NcoI enzymes. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59027. Genomic coordinates for TADs identified from NcoI datasets are provided in http://msb.embopress.org/content/msb/11/12/852/DC5/embed/inline-supplementary-material-5.xls?download=true
+- 5C libraries generated in Beagan et al. in pluripotent mouse ES cells and multipotent neural progenitor cells were downloaded from GEO accession numbers GSM1974095, GSM1974096, GSM1974099, and GSM1974100 (Beagan et al. 2016). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68582
 
 
 # Misc

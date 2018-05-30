@@ -101,6 +101,8 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 
 - Genomic coordinates of replication domains boundaries (mm9, hg19, multiple cell lines), TAD boundaries (hg19, IMR90, 40kb and 20kb resolution) http://mouseencode.org/publications/mcp05/
 
+- Supplementary Table 1 - list of 80 studies (315 Hi-C experiments) from different tissues. Plus 30 extra datasets. Supplementary Table 2 - ChIP-seq experiments of histone modification marks, and their QC statistics. https://academic.oup.com/nar/article/46/D1/D52/4584622#107180936. From Yang, Dongchan, Insu Jang, Jinhyuk Choi, Min-Seo Kim, Andrew J. Lee, Hyunwoong Kim, Junghyun Eom, Dongsup Kim, Inkyung Jung, and Byungwook Lee. “3DIV: A 3D-Genome Interaction Viewer and Database.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D52–57. https://doi.org/10.1093/nar/gkx1017.
+
 
 ## Cancer
 

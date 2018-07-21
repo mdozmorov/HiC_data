@@ -95,6 +95,11 @@ Search query for Hi-C human brain, https://www.encodeproject.org/search/?type=Ex
 
 # Misc
 
+- McCole, Ruth B., Jelena Erceg, Wren Saylor, and Chao-Ting Wu. “Ultraconserved Elements Occupy Specific Arenas of Three-Dimensional Mammalian Genome Organization.” Cell Reports 24, no. 2 (July 10, 2018): 479–88. https://doi.org/10.1016/j.celrep.2018.06.031. - Ultraconserved elements analysis in the context of 3D genomic structures (TADs, boundaries, loop anchors). Enriched (obseerved/expected overlaps) in domains, depleted in boundaries, no enrichment in loops. Separate analysis for exonic, intronic, intergenic UCEs. Human and mouse Hi-C data. Supplementary tables - coordinates of UCEs, more. https://github.com/rmccole/UCEs_genome_organization
+    - `McCole_2018` - Supplementary material, https://www.cell.com/action/showImagesData?pii=S2211-1247%2818%2930941-0
+    - `mmc2.xlsx` - Table S1. Hi-C Datasets, genomic coordinates of human/mouse pooled domains/boundaries, cell-specific domains/boundaries
+    - `mmc3.xlsx` Table S2. Depletion/Enrichment Analysis. "C" and "D" sheets have genomic coordinates of hg19/mm9 UCEs and their Intergenic/intronic/exonic subsets.
+
 - Nagano, Takashi, Csilla Várnai, Stefan Schoenfelder, Biola-Maria Javierre, Steven W. Wingett, and Peter Fraser. “Comparison of Hi-C Results Using in-Solution versus in-Nucleus Ligation.” Genome Biology 16 (August 26, 2015): 175. https://doi.org/10.1186/s13059-015-0753-7. - comparing _in situ_ and _in solution_ HiC ligation protocol. Mouse liver cells and human ES cells. Two biological and two technical replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70181
 
 - Trussart, M., F. Serra, D. Bau, I. Junier, L. Serrano, and M. A. Marti-Renom. “Assessing the Limits of Restraint-Based 3D Modeling of Genomes and Genomic Domains.” Nucleic Acids Research 43, no. 7 (April 20, 2015): 3465–77. https://doi.org/10.1093/nar/gkv221. - TADbit - modeling 3D structures from Hi-C data. Hi-C matrix simulation methods. The contact maps and the underlying structures are at http://sgt.cnag.cat/3dg/datasets/ - simulated and real datasets, text files, square interaction matrices

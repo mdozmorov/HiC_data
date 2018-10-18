@@ -74,6 +74,8 @@ https://data.4dnucleome.org/ - downloadable data from key chromosome conformatio
 - Taberlay, Phillippa C., Joanna Achinger-Kawecka, Aaron T. L. Lun, Fabian A. Buske, Kenneth Sabir, Cathryn M. Gould, Elena Zotenko, et al. “Three-Dimensional Disorganization of the Cancer Genome Occurs Coincident with Long-Range Genetic and Epigenetic Alterations.” Genome Research 26, no. 6 (June 2016): 719–31. https://doi.org/10.1101/gr.201517.115. Cancer, normal Hi-C. Prostate epithelial cells, PC3, LNCaP. Two-three replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73785
 
 - Barutcu AR, Lajoie BR, McCord RP, Tye CE et al. Chromatin interaction analysis reveals changes in small chromosome and telomere clustering between epithelial and breast cancer cells. Genome Biol 2015 Sep 28;16:214. PMID: 26415882. Breast cancer. Epithelial (MCF-10A) and breast cancer (MCF-7) cells. Tumor vs. normal comparison, replicate comparison. Two replicates for each. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66733
+    - The data was reanalyzed in Fritz, Andrew J., Prachi N. Ghule, Joseph R. Boyd, Coralee E. Tye, Natalie A. Page, Deli Hong, David J. Shirley, et al. “Intranuclear and Higher-Order Chromatin Organization of the Major Histone Gene Cluster in Breast Cancer.” Journal of Cellular Physiology 233, no. 2 (February 2018): 1278–90. https://doi.org/10.1002/jcp.25996. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98552
+
 
 - Le Dily F, Baù D, Pohl A, Vicent GP et al. Distinct structural transitions of chromatin topological domains correlate with coordinated hormone-induced gene regulation. Genes Dev 2014 Oct 1;28(19):2151-62. PMID: 25274727. Breast cancer. T47D-MTLV cell line. 3D response to progesterone, integrative analysis, effect of cutting enzymes. Hi-C at 0h and 1h time points, with different enzymes. RNA-seq and ChIP-Seq available. No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE53463
 
@@ -120,7 +122,9 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 - Ramani, Vijay, Xinxian Deng, Ruolan Qiu, Kevin L Gunderson, Frank J Steemers, Christine M Disteche, William S Noble, Zhijun Duan, and Jay Shendure. “Massively Multiplex Single-Cell Hi-C.” Nature Methods 14, no. 3 (January 30, 2017): 263–66. https://doi.org/10.1038/nmeth.4155. - Single-cell Hi-C. Cell lines derived from mouse (primary mouse embryonic fibroblasts (MEFs), and the ‘Patski’ embryonic fibroblast line) and human cells (HeLa S3, the HAP1 cell line, K562, and GM12878. Human data - controlled access. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84920
 
-- Stevens, Tim J., David Lando, Srinjan Basu, Liam P. Atkinson, Yang Cao, Steven F. Lee, Martin Leeb, et al. “3D Structures of Individual Mammalian Genomes Studied by Single-Cell Hi-C.” Nature, March 13, 2017. https://doi.org/10.1038/nature21429. - Single-cell Hi-C. Mouse embryonic cell lines. Eight samples. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80280
+- Stevens, Tim J., David Lando, Srinjan Basu, Liam P. Atkinson, Yang Cao, Steven F. Lee, Martin Leeb, et al. “3D Structures of Individual Mammalian Genomes Studied by Single-Cell Hi-C.” Nature, March 13, 2017. https://doi.org/10.1038/nature21429. - Single-cell Hi-C. Mouse embryonic cell lines. Eight samples. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80280. 100kb five single-cell HiC. TADs are dynamic, A/B compartments, LADs, enhancers/promoters are consistent. 3D clustering of active histone marks, highly expressed genes. Co-expression of genes within TAD boundaries. Videos at http://www.nature.com/nature/journal/v544/n7648/full/nature21429.html#supplementary-information. Supplementary material has processing pipeline description, https://github.com/TheLaueLab/nuc_processing
+
+ 
 
 
 # Misc

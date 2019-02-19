@@ -118,6 +118,8 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 # Single cell Hi-C
 
+- Flyamer, Ilya M., Johanna Gassler, Maxim Imakaev, Hugo B. Brandão, Sergey V. Ulianov, Nezar Abdennur, Sergey V. Razin, Leonid A. Mirny, and Kikuë Tachibana-Konwalski. “Single-Nucleus Hi-C Reveals Unique Chromatin Reorganization at Oocyte-to-Zygote Transition.” Nature 544, no. 7648 (06 2017): 110–14. https://doi.org/10.1038/nature21711. - Single-nucleus Hi-C provides >10-fold more contacts per cell than the previous method. Omitted biotin incorporation and enrichment for ligated fragments steps. Applied to oocyte-to-zygote transition. Data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80006
+
 - Nagano, Takashi, Yaniv Lubling, Tim J. Stevens, Stefan Schoenfelder, Eitan Yaffe, Wendy Dean, Ernest D. Laue, Amos Tanay, and Peter Fraser. “Single-Cell Hi-C Reveals Cell-to-Cell Variability in Chromosome Structure.” Nature 502, no. 7469 (October 3, 2013): 59–64. https://doi.org/10.1038/nature12593. - Single-cell Hi-C. Mouse Th1 cells, 11 samples. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48262
 
 - Takashi Nagano et al., “Cell-Cycle Dynamics of Chromosomal Organization at Single-Cell Resolution,” Nature 547, no. 7661 (July 5, 2017): 61–67, https://doi.org/10.1038/nature23001. Single-cell Hi-C, mouse embryonic stem cells, diploid and haploid, over cell cycle, 45 samples. GEO link https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94489 and data on the pipeline page https://bitbucket.org/tanaylab/schic2/overview

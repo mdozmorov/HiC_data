@@ -117,7 +117,7 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - Jessica Zuin et al., “Cohesin and CTCF Differentially Affect Chromatin Architecture and Gene Expression in Human Cells,” Proceedings of the National Academy of Sciences of the United States of America 111, no. 3 (January 21, 2014): 996–1001, https://doi.org/10.1073/pnas.1317788111. - CTCF and cohesin (RAD21 protein) are enriched in TAD boundaries. Depletion experiments. Different effect on inter- and intradomain interactions. Loss of cohesin leads to loss of local interactions, but TADs remained. Loss of CTCF leads to both loss of local and increase in inter-domain interactions. Different gene expression changes. TAD structures remain largely intact. Data: Hi-C, RNA-seq, RAD21 ChIP-seq for control and depleted RAD21 and CTCF in HEK293 hepatocytes. Two replicates in each condition. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44267
 
 
-# Single cell Hi-C {#single-cell-hi-c}
+# Single cell Hi-C
 
 - Lando, David, Tim J. Stevens, Srinjan Basu, and Ernest D. Laue. “Calculation of 3D Genome Structures for Comparison of Chromosome Conformation Capture Experiments with Microscopy: An Evaluation of Single-Cell Hi-C Protocols.” Nucleus (Austin, Tex.) 9, no. 1 (January 1, 2018): 190–201. https://doi.org/10.1080/19491034.2018.1438799. - scHi-C protocol evaluation (Flyamer, Stevens, Nagano. Ramani). 100kb data. Practical observations, code for processing the data. NucProcess - Python toolkit for processing scHi-C-seq data, https://github.com/tjs23/nuc_processing. NucDynamics - calculating genome structures from scHi-C data, explanation of read alignment/filtering at restriction fragment resolution, https://github.com/tjs23/nuc_dynamics. 
 

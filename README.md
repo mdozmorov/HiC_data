@@ -20,6 +20,8 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 
 # Large collections
 
+- GITAR: An Open Source Tool for Analysis and Visualization of Hi-C Data - Includes a large collection of standardized processed data from 4D Nucleome. 20 hg38 and 2 mm10 datasets normalized by Yaffe-Tanay method, downloadable, include directionality index, HMM states, TAD analysis results. Text and HDF5 formats. https://www.genomegitar.org/processed-data.html
+
 ## Lieberman-Aiden lab
 
 All HiC data released by Lieberman-Aiden group. Links to Amazon storage and GEO studies. http://aidenlab.org/data.html

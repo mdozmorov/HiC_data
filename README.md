@@ -15,6 +15,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
   * [Brain](#brain)
   * [Cell lines](#cell-lines)
 * [Timecourse Hi-C](#timecourse-hi-c)
+* [Distant associations](#distant-associations)
 * [Misc](#misc)
 
 # Large collections
@@ -129,7 +130,13 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 - Vara, Covadonga, Andreu Paytuví-Gallart, Yasmina Cuartero, François Le Dily, Francisca Garcia, Judit Salvà-Castro, Laura Gómez-H, et al. “Three-Dimensional Genomic Structure and Cohesin Occupancy Correlate with Transcriptional Activity during Spermatogenesis.” Cell Reports 28, no. 2 (July 2019): 352-367.e9. https://doi.org/10.1016/j.celrep.2019.06.037. - 3D structure changes during spermatogenesis in mouse. Hi-C, RNA-seq, CTCF/REC8/RAD21L ChIP-seq. Description of biology of each stage (Fibroblasts, spermatogonia, leptonema/zygonema, pachynema/diplonema, round spermatids, sperm), and A/B compartment and TAD analysis (TADbit, insulation score), data normalized with ICE. Integration with differential expression. Changes in distribution of CTCF and cohesins (REC8 and RAD21L). Key tools: BBDuk (BBMap), TADbit, HiCExplorer, HiCRep, DeepTools. Data (no replicates) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132054
 
-# Misc
+## Distant associations
+
+- Hi-C promoter capture in 17 blood cell types, sorted. Chromatin interactions are cell type-specific. >50% interactions are one-to-one. Enriched in H3K27ac and H3K4me1 (active enhancers). GWAS loci enriched in PIRs. Table S3 lists prioritized genes/SNPs, for autoimmune diseases. Used CHiCAGO to identify strongly interacting regions. Data has active promoter-enhancer links. More than 2,500 potential disease-associated genes are linked to GWAS SNPs. https://www.chicp.org/
+    - Javierre, Biola M., Oliver S. Burren, Steven P. Wilder, Roman Kreuzhuber, Steven M. Hill, Sven Sewitz, Jonathan Cairns, et al. “Lineage-Specific Genome Architecture Links Enhancers and Non-Coding Disease Variants to Target Gene Promoters.” Cell 167, no. 5 (November 17, 2016): 1369-1384.e19. https://doi.org/10.1016/j.cell.2016.09.037.
+
+
+## Misc
 
 - Sauerwald, Natalie, and Carl Kingsford. “Quantifying the Similarity of Topological Domains across Normal and Cancer Human Cell Types.” Bioinformatics (Oxford, England) 34, no. 13 (July 1, 2018): i475–83. https://doi.org/10.1093/bioinformatics/bty265. - Analysis of TAD similarity using variation of information (VI) metric as a local distance measure. Defining structurally similar and variable regions. Comparison with previous studies of genomic similarity. Cancer-normal comparison - regions containing pan-cancer genes are structurally conserved in normal-normal pairs, not in cancer-cancer. https://github.com/Kingsford-Group/localtadsim. 23 human Hi-C datasets, Hi-C Pro processed into 100kb matrices, Armatus to call TADs. 
 

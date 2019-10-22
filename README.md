@@ -20,6 +20,9 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 
 # Large collections
 
+- Chorogenome resource: Processed data (Hi-C, ChIP-seq) for Drosophila, Mouse, Human, http://chorogenome.ie-freiburg.mpg.de/
+    - Ramírez, Fidel, Vivek Bhardwaj, Laura Arrigoni, Kin Chung Lam, Björn A. Grüning, José Villaveces, Bianca Habermann, Asifa Akhtar, and Thomas Manke. “High-Resolution TADs Reveal DNA Sequences Underlying Genome Organization in Flies.” Nature Communications 9, no. 1 (December 2018). https://doi.org/10.1038/s41467-017-02525-w.
+
 - GITAR: An Open Source Tool for Analysis and Visualization of Hi-C Data - Includes a large collection of standardized processed data from 4D Nucleome. 20 hg38 and 2 mm10 datasets normalized by Yaffe-Tanay method, downloadable, include directionality index, HMM states, TAD analysis results. Text and HDF5 formats. https://www.genomegitar.org/processed-data.html
 
 ## Lieberman-Aiden lab

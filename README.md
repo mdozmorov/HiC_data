@@ -20,6 +20,9 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 
 # Large collections
 
+- `3DIV` - database of uniformly processed 315 Hi-C datasets, 80 human cell/tissue types. Bait-centric (SNP rsID, gene name, hg19 coordinates) visualization of long-range interactions in context of epigenomic (histone, enhancers) signals, numerical results. Custom BWA-MEM pipeline, Bias, distance effect removed. Coordinates of significant interactions, with annotations, are available for (FTP) download, http://kobic.kr/3div/download
+    - Yang, Dongchan, Insu Jang, Jinhyuk Choi, Min-Seo Kim, Andrew J Lee, Hyunwoong Kim, Junghyun Eom, Dongsup Kim, Inkyung Jung, and Byungwook Lee. “3DIV: A 3D-Genome Interaction Viewer and Database.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D52–57. https://doi.org/10.1093/nar/gkx1017.
+
 - Chorogenome resource: Processed data (Hi-C, ChIP-seq) for Drosophila, Mouse, Human, http://chorogenome.ie-freiburg.mpg.de/
     - Ramírez, Fidel, Vivek Bhardwaj, Laura Arrigoni, Kin Chung Lam, Björn A. Grüning, José Villaveces, Bianca Habermann, Asifa Akhtar, and Thomas Manke. “High-Resolution TADs Reveal DNA Sequences Underlying Genome Organization in Flies.” Nature Communications 9, no. 1 (December 2018). https://doi.org/10.1038/s41467-017-02525-w.
 

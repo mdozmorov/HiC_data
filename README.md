@@ -16,6 +16,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
   * [Cell lines](#cell-lines)
 * [Timecourse Hi-C](#timecourse-hi-c)
 * [Promoter-enhancer interactions](#promoter-enhancer-interactions)
+* [CTCF](#ctcf)
 * [Misc](#misc)
 
 # Large collections
@@ -160,6 +161,9 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - Hi-C promoter capture in 17 blood cell types, sorted. Chromatin interactions are cell type-specific. >50% interactions are one-to-one. Enriched in H3K27ac and H3K4me1 (active enhancers). GWAS loci enriched in PIRs. Table S3 lists prioritized genes/SNPs, for autoimmune diseases. Used CHiCAGO to identify strongly interacting regions. Data has active promoter-enhancer links. More than 2,500 potential disease-associated genes are linked to GWAS SNPs. https://www.chicp.org/
     - Javierre, Biola M., Oliver S. Burren, Steven P. Wilder, Roman Kreuzhuber, Steven M. Hill, Sven Sewitz, Jonathan Cairns, et al. “Lineage-Specific Genome Architecture Links Enhancers and Non-Coding Disease Variants to Target Gene Promoters.” Cell 167, no. 5 (November 17, 2016): 1369-1384.e19. https://doi.org/10.1016/j.cell.2016.09.037.
 
+## CTCF
+
+[Notes on CTCF motifs and data](CTCF/README.md)
 
 ## Misc
 

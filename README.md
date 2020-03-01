@@ -14,6 +14,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
   * [ENCODE](#encode)
   * [Brain](#brain)
   * [Cell lines](#cell-lines)
+* [Differential Hi-C](#differential-hi-c)
 * [Timecourse Hi-C](#timecourse-hi-c)
 * [Promoter-enhancer interactions](#promoter-enhancer-interactions)
 * [CTCF](#ctcf)
@@ -143,6 +144,12 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - Naumova, Natalia, Maxim Imakaev, Geoffrey Fudenberg, Ye Zhan, Bryan R. Lajoie, Leonid A. Mirny, and Job Dekker. “Organization of the Mitotic Chromosome.” Science (New York, N.Y.) 342, no. 6161 (November 22, 2013): 948–53. https://doi.org/10.1126/science.1236083. - E-MTAB-1948 - 5C and Hi-C chromosome conformation capture study on metaphase chromosomes from human HeLa, HFF1 and K562 cell lines across the cell cycle. Two biological and two technical replicates. https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1948/samples/
 
 - Jessica Zuin et al., “Cohesin and CTCF Differentially Affect Chromatin Architecture and Gene Expression in Human Cells,” Proceedings of the National Academy of Sciences of the United States of America 111, no. 3 (January 21, 2014): 996–1001, https://doi.org/10.1073/pnas.1317788111. - CTCF and cohesin (RAD21 protein) are enriched in TAD boundaries. Depletion experiments. Different effect on inter- and intradomain interactions. Loss of cohesin leads to loss of local interactions, but TADs remained. Loss of CTCF leads to both loss of local and increase in inter-domain interactions. Different gene expression changes. TAD structures remain largely intact. Data: Hi-C, RNA-seq, RAD21 ChIP-seq for control and depleted RAD21 and CTCF in HEK293 hepatocytes. Two replicates in each condition. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44267
+
+## Differential Hi-C
+
+- X chromosome sex differences in Drosophila. Male X chromosome has two-fold upregulation of gene expression, more mid/long-range interactions, weaker boundaries marked by BEAF-32, CP190, Chromator, and CLAMP, a dosage compensation complex cofactor. Less negative slope in distance-dependent decay of interactions, less clustered top scoring interactions (more randomness), more open structure overall. Local score differentiator (LSD-score) to call differential TAD boundaries in CNV-independent manner - more non-matching boundaries than autosomes, ~20% appearing and ~35% disappearing boundaries. Enrichment in epigenomic marks identified stronger boundary association with MSL (male-specific lethal complex) and CLAMP binding. Many other experimental observations. hiclib, hicpipe processing. R implementation of LSD differential TAD analysis https://bitbucket.org/koustavpal1988/fly_dc_structuralchanges_2018/src/master/, Hi-C data in bedGraph format https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94115 [Tweet](https://twitter.com/3DGenome_KPal/status/1198911861493837830?s=20)
+    - Pal, Koustav, Mattia Forcato, Daniel Jost, Thomas Sexton, Cédric Vaillant, Elisa Salviato, Emilia Maria Cristina Mazza, Enrico Lugli, Giacomo Cavalli, and Francesco Ferrari. “Global Chromatin Conformation Differences in the Drosophila Dosage Compensated Chromosome X.” Nature Communications 10, no. 1 (December 2019): 5355. https://doi.org/10.1038/s41467-019-13350-8.
+
 
 ## Timecourse Hi-C
 

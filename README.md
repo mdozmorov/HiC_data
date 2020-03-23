@@ -167,6 +167,12 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 - Vara, Covadonga, Andreu Paytuví-Gallart, Yasmina Cuartero, François Le Dily, Francisca Garcia, Judit Salvà-Castro, Laura Gómez-H, et al. “Three-Dimensional Genomic Structure and Cohesin Occupancy Correlate with Transcriptional Activity during Spermatogenesis.” Cell Reports 28, no. 2 (July 2019): 352-367.e9. https://doi.org/10.1016/j.celrep.2019.06.037. - 3D structure changes during spermatogenesis in mouse. Hi-C, RNA-seq, CTCF/REC8/RAD21L ChIP-seq. Description of biology of each stage (Fibroblasts, spermatogonia, leptonema/zygonema, pachynema/diplonema, round spermatids, sperm), and A/B compartment and TAD analysis (TADbit, insulation score), data normalized with ICE. Integration with differential expression. Changes in distribution of CTCF and cohesins (REC8 and RAD21L). Key tools: BBDuk (BBMap), TADbit, HiCExplorer, HiCRep, DeepTools. Data (no replicates) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132054
 
+## Non-human data
+
+- TADs in Drosophila, Hi-C and RNA-seq in four cell lines of various origin. dCTCF, SMC3, and Su(Hw) are weakly enriched at TAD boundaries. Transcription and active chromatin (H3K27ac, H3K4me1, H3K4me3, H3K36me3, H4K16ac) are associated with TAD boundaries. Also, BEAF-32 and CP190. Hierarchical TADs. Housekeeping genes tend to be near TAD boundaries and in inter-TAD regions. TAD boundary prediction using regression, modeling to associate TADs with bands, investigation of the hierarchy. Heavy use of the Armatus TAD caller. RNA-seq and replicate Hi-C data, high correlation, merged into 20kb resolution.  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69013
+    - Ulianov, Sergey V., Ekaterina E. Khrameeva, Alexey A. Gavrilov, Ilya M. Flyamer, Pavel Kos, Elena A. Mikhaleva, Aleksey A. Penin, et al. “Active Chromatin and Transcription Play a Key Role in Chromosome Partitioning into Topologically Associating Domains.” Genome Research 26, no. 1 (January 2016): 70–84. https://doi.org/10.1101/gr.196006.115.
+
+
 ## Promoter-enhancer interactions
 
 - Promoter-enhancer interactions. Promoter-capture Hi-C, 27 human cell lines. Well-formatted data and hg19 genomic coordinates [Supplementary material](https://www.nature.com/articles/s41588-019-0494-8#Sec23) and http://www.3div.kr/capture_hic

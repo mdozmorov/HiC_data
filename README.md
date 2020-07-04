@@ -145,6 +145,9 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 ## Differential Hi-C
 
+- RNA transcription inhibition minimally affects TADs, weakens TAD boundaries. K562, RNAse inhibition before/after crosslinking (bXL/aXL), actinomycin D (complete transcriptional arrest) treatment. Processing using cword, 40kb resolution. Data with replicates of each condition, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114337
+    - Barutcu, A Rasim, Benjamin J Blencowe, and John L Rinn. “[Differential Contribution of Steady‐state RNA and Active Transcription in Chromatin Organization](https://doi.org/10.15252/embr.201948068).” EMBO Reports 20, no. 10 (October 4, 2019). 
+
 - Comparison of the 3D structure of human and chimpanzee induced puripotent stem cells. Lower-order pairwise interactions are relatively conserved, but higher-order, such as TADs, differ. HiCUP and HOMER for Hi-C data processing to 10kb resolution. cyclic loess normalization, limma for significant interaction definition, Arrowhead on combined replicated wot detect TADs.  Association of differential chromatin interactions with gene expression. PyGenomeTracks for visualization. Workflowr code https://ittaieres.github.io/HiCiPSC/, Processed Hi-C data (4 human and 4 chimp iPSCs) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122520
     - Eres, Ittai E., Kaixuan Luo, Chiaowen Joyce Hsiao, Lauren E. Blake, and Yoav Gilad. “[Reorganization of 3D Genome Structure May Contribute to Gene Regulatory Evolution in Primates](https://doi.org/10.1371/journal.pgen.1008278).” Edited by Harmit S. Malik. PLOS Genetics 15, no. 7 (July 19, 2019): e1008278. 
 

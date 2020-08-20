@@ -1,24 +1,30 @@
 # Hi-C data
 
-A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates. Related repositories: https://github.com/mdozmorov/HiC_tools, https://github.com/mdozmorov/scHiC_notes. Issues and/or Pull requests to add other data are welcome!
+A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-* [Large collections](#large-collections)
-  * [Lieberman-Aiden lab](#lieberman-aiden-lab)
-  * [Leonid Mirny lab](#leonid-mirny-lab)
-  * [Bing Ren lab](#bing-ren-lab)
-  * [Feng Yue lab](#feng-yue-lab)
-  * [4D Nucleome Data Portal](#4d-nucleome-data-portal)
-* [Cancer](#cancer)
-* [Tissue-specific](#tissue-specific)
-  * [ENCODE](#encode)
-  * [Brain](#brain)
-  * [Cell lines](#cell-lines)
-* [Differential Hi-C](#differential-hi-c)
-* [Timecourse Hi-C](#timecourse-hi-c)
-* [Promoter-enhancer interactions](#promoter-enhancer-interactions)
-* [CTCF](#ctcf)
-* [Misc](#misc)
+- [Large collections](#large-collections)
+  - [Lieberman-Aiden lab](#lieberman-aiden-lab)
+  - [Leonid Mirny lab](#leonid-mirny-lab)
+  - [Bing Ren lab](#bing-ren-lab)
+  - [Feng Yue lab](#feng-yue-lab)
+  - [4D Nucleome Data Portal](#4d-nucleome-data-portal)
+- [Cancer](#cancer)
+- [Tissue-specific](#tissue-specific)
+  - [ENCODE](#encode)
+  - [Brain](#brain)
+  - [Cell lines](#cell-lines)
+  - [Differential Hi-C](#differential-hi-c)
+  - [Timecourse Hi-C](#timecourse-hi-c)
+  - [Non-human data](#non-human-data)
+  - [Promoter-enhancer interactions](#promoter-enhancer-interactions)
+  - [CTCF](#ctcf)
+  - [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Large collections
 

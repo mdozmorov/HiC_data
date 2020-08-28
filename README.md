@@ -1,5 +1,7 @@
 # Hi-C data
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
+
 A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -35,6 +37,10 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
     - Ramírez, Fidel, Vivek Bhardwaj, Laura Arrigoni, Kin Chung Lam, Björn A. Grüning, José Villaveces, Bianca Habermann, Asifa Akhtar, and Thomas Manke. “[High-Resolution TADs Reveal DNA Sequences Underlying Genome Organization in Flies](https://doi.org/10.1038/s41467-017-02525-w).” Nature Communications 9, no. 1 (December 2018). 
 
 - [GITAR: An Open Source Tool for Analysis and Visualization of Hi-C Data](https://www.genomegitar.org/processed-data.html) - Includes a large collection of standardized processed data from 4D Nucleome. 20 hg38 and 2 mm10 datasets normalized by Yaffe-Tanay method, downloadable, include directionality index, HMM states, TAD analysis results. Text and HDF5 formats. https://www.genomegitar.org/processed-data.html
+
+- [4DGenome](https://4dgenome.research.chop.edu/) - 3D significant interactions, from different literature sources
+    - Teng, Li, Bing He, Jiahui Wang, and Kai Tan. “[4DGenome: A Comprehensive Database of Chromatin Interactions](https://doi.org/10.1093/bioinformatics/btv158).” Bioinformatics (Oxford, England) 31, no. 15 (August 1, 2015)
+
 
 ## Lieberman-Aiden lab
 

@@ -23,6 +23,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 - [Differential Hi-C](#differential-hi-c)
 - [Timecourse Hi-C](#timecourse-hi-c)
 - [Promoter-enhancer interactions](#promoter-enhancer-interactions)
+- [Integrative Hi-C](#integrative-hi-c)
 - [CTCF](#ctcf)
 - [Misc](#misc)
 
@@ -215,6 +216,12 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 # CTCF
 
 [Notes on CTCF motifs and data](CTCF/README.md)
+
+# Integrative Hi-C
+
+- Zhang, Ruochi, and Jian Ma. “[MATCHA: Probing Multi-Way Chromatin Interaction with Hypergraph Representation Learning](https://doi.org/10.1016/j.cels.2020.04.004).” Cell Systems 10, no. 5 (May 2020)
+    - GM129878-specific [SPRITE](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114242), [Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63525), [single-cell Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84920) data (also, [Repli-seq](https://data.4dnucleome.org/experiments-repliseq/4DNEXI55T28T/)).
+    - Drosophila S2 cell line [ChIA-Drop](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109355), [Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99104)
 
 # Misc
 

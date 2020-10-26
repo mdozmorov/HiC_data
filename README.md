@@ -19,12 +19,12 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
   - [ENCODE](#encode)
   - [Brain](#brain)
   - [Cell lines](#cell-lines)
-  - [Differential Hi-C](#differential-hi-c)
-  - [Timecourse Hi-C](#timecourse-hi-c)
   - [Non-human data](#non-human-data)
-  - [Promoter-enhancer interactions](#promoter-enhancer-interactions)
-  - [CTCF](#ctcf)
-  - [Misc](#misc)
+- [Differential Hi-C](#differential-hi-c)
+- [Timecourse Hi-C](#timecourse-hi-c)
+- [Promoter-enhancer interactions](#promoter-enhancer-interactions)
+- [CTCF](#ctcf)
+- [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -163,7 +163,12 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 - Jessica Zuin et al., “Cohesin and CTCF Differentially Affect Chromatin Architecture and Gene Expression in Human Cells,” Proceedings of the National Academy of Sciences of the United States of America 111, no. 3 (January 21, 2014): 996–1001, https://doi.org/10.1073/pnas.1317788111. - CTCF and cohesin (RAD21 protein) are enriched in TAD boundaries. Depletion experiments. Different effect on inter- and intradomain interactions. Loss of cohesin leads to loss of local interactions, but TADs remained. Loss of CTCF leads to both loss of local and increase in inter-domain interactions. Different gene expression changes. TAD structures remain largely intact. Data: Hi-C, RNA-seq, RAD21 ChIP-seq for control and depleted RAD21 and CTCF in HEK293 hepatocytes. Two replicates in each condition. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44267
 
-## Differential Hi-C
+## Non-human data
+
+- TADs in Drosophila, Hi-C and RNA-seq in four cell lines of various origin. dCTCF, SMC3, and Su(Hw) are weakly enriched at TAD boundaries. Transcription and active chromatin (H3K27ac, H3K4me1, H3K4me3, H3K36me3, H4K16ac) are associated with TAD boundaries. Also, BEAF-32 and CP190. Hierarchical TADs. Housekeeping genes tend to be near TAD boundaries and in inter-TAD regions. TAD boundary prediction using regression, modeling to associate TADs with bands, investigation of the hierarchy. Heavy use of the Armatus TAD caller. RNA-seq and replicate Hi-C data, high correlation, merged into 20kb resolution.  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69013
+    - Ulianov, Sergey V., Ekaterina E. Khrameeva, Alexey A. Gavrilov, Ilya M. Flyamer, Pavel Kos, Elena A. Mikhaleva, Aleksey A. Penin, et al. “Active Chromatin and Transcription Play a Key Role in Chromosome Partitioning into Topologically Associating Domains.” Genome Research 26, no. 1 (January 2016): 70–84. https://doi.org/10.1101/gr.196006.115.
+
+# Differential Hi-C
 
 - RNA transcription inhibition minimally affects TADs, weakens TAD boundaries. K562, RNAse inhibition before/after crosslinking (bXL/aXL), actinomycin D (complete transcriptional arrest) treatment. Processing using cword, 40kb resolution. Data with replicates of each condition, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114337
     - Barutcu, A Rasim, Benjamin J Blencowe, and John L Rinn. “[Differential Contribution of Steady‐state RNA and Active Transcription in Chromatin Organization](https://doi.org/10.15252/embr.201948068).” EMBO Reports 20, no. 10 (October 4, 2019). 
@@ -187,7 +192,7 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 
 
-## Timecourse Hi-C
+# Timecourse Hi-C
 
 - Du, Zhenhai, Hui Zheng, Bo Huang, Rui Ma, Jingyi Wu, Xianglin Zhang, Jing He, et al. “Allelic Reprogramming of 3D Chromatin Architecture during Early Mammalian Development.” Nature 547, no. 7662 (12 2017): 232–35. https://doi.org/10.1038/nature23263. - Developmental time course Hi-C. Mouse early development. low-input Hi-C technology (sisHi-C). TADs are initially absent, then gradually appeared. HiCPro mapping, Pearson correlation on low-resolution matrices, allele resolving. Data:  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82185
 
@@ -199,13 +204,7 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 
 - Vara, Covadonga, Andreu Paytuví-Gallart, Yasmina Cuartero, François Le Dily, Francisca Garcia, Judit Salvà-Castro, Laura Gómez-H, et al. “Three-Dimensional Genomic Structure and Cohesin Occupancy Correlate with Transcriptional Activity during Spermatogenesis.” Cell Reports 28, no. 2 (July 2019): 352-367.e9. https://doi.org/10.1016/j.celrep.2019.06.037. - 3D structure changes during spermatogenesis in mouse. Hi-C, RNA-seq, CTCF/REC8/RAD21L ChIP-seq. Description of biology of each stage (Fibroblasts, spermatogonia, leptonema/zygonema, pachynema/diplonema, round spermatids, sperm), and A/B compartment and TAD analysis (TADbit, insulation score), data normalized with ICE. Integration with differential expression. Changes in distribution of CTCF and cohesins (REC8 and RAD21L). Key tools: BBDuk (BBMap), TADbit, HiCExplorer, HiCRep, DeepTools. Data (no replicates) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132054
 
-## Non-human data
-
-- TADs in Drosophila, Hi-C and RNA-seq in four cell lines of various origin. dCTCF, SMC3, and Su(Hw) are weakly enriched at TAD boundaries. Transcription and active chromatin (H3K27ac, H3K4me1, H3K4me3, H3K36me3, H4K16ac) are associated with TAD boundaries. Also, BEAF-32 and CP190. Hierarchical TADs. Housekeeping genes tend to be near TAD boundaries and in inter-TAD regions. TAD boundary prediction using regression, modeling to associate TADs with bands, investigation of the hierarchy. Heavy use of the Armatus TAD caller. RNA-seq and replicate Hi-C data, high correlation, merged into 20kb resolution.  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69013
-    - Ulianov, Sergey V., Ekaterina E. Khrameeva, Alexey A. Gavrilov, Ilya M. Flyamer, Pavel Kos, Elena A. Mikhaleva, Aleksey A. Penin, et al. “Active Chromatin and Transcription Play a Key Role in Chromosome Partitioning into Topologically Associating Domains.” Genome Research 26, no. 1 (January 2016): 70–84. https://doi.org/10.1101/gr.196006.115.
-
-
-## Promoter-enhancer interactions
+# Promoter-enhancer interactions
 
 - Promoter-enhancer interactions. Promoter-capture Hi-C, 27 human cell lines. Well-formatted data and hg19 genomic coordinates [Supplementary material](https://www.nature.com/articles/s41588-019-0494-8#Sec23) and http://www.3div.kr/capture_hic
     - Jung, Inkyung, Anthony Schmitt, Yarui Diao, Andrew J. Lee, Tristin Liu, Dongchan Yang, Catherine Tan, et al. “A Compendium of Promoter-Centered Long-Range Chromatin Interactions in the Human Genome.” Nature Genetics, September 9, 2019. https://doi.org/10.1038/s41588-019-0494-8.
@@ -213,11 +212,11 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - Hi-C promoter capture in 17 blood cell types, sorted. Chromatin interactions are cell type-specific. >50% interactions are one-to-one. Enriched in H3K27ac and H3K4me1 (active enhancers). GWAS loci enriched in PIRs. Table S3 lists prioritized genes/SNPs, for autoimmune diseases. Used CHiCAGO to identify strongly interacting regions. Data has active promoter-enhancer links. More than 2,500 potential disease-associated genes are linked to GWAS SNPs. https://www.chicp.org/
     - Javierre, Biola M., Oliver S. Burren, Steven P. Wilder, Roman Kreuzhuber, Steven M. Hill, Sven Sewitz, Jonathan Cairns, et al. “Lineage-Specific Genome Architecture Links Enhancers and Non-Coding Disease Variants to Target Gene Promoters.” Cell 167, no. 5 (November 17, 2016): 1369-1384.e19. https://doi.org/10.1016/j.cell.2016.09.037.
 
-## CTCF
+# CTCF
 
 [Notes on CTCF motifs and data](CTCF/README.md)
 
-## Misc
+# Misc
 
 - Sauerwald, Natalie, and Carl Kingsford. “Quantifying the Similarity of Topological Domains across Normal and Cancer Human Cell Types.” Bioinformatics (Oxford, England) 34, no. 13 (July 1, 2018): i475–83. https://doi.org/10.1093/bioinformatics/bty265. - Analysis of TAD similarity using variation of information (VI) metric as a local distance measure. Defining structurally similar and variable regions. Comparison with previous studies of genomic similarity. Cancer-normal comparison - regions containing pan-cancer genes are structurally conserved in normal-normal pairs, not in cancer-cancer. https://github.com/Kingsford-Group/localtadsim. 23 human Hi-C datasets, Hi-C Pro processed into 100kb matrices, Armatus to call TADs. 
 
@@ -226,7 +225,7 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - McCole, Ruth B., Jelena Erceg, Wren Saylor, and Chao-Ting Wu. “Ultraconserved Elements Occupy Specific Arenas of Three-Dimensional Mammalian Genome Organization.” Cell Reports 24, no. 2 (July 10, 2018): 479–88. https://doi.org/10.1016/j.celrep.2018.06.031. - Ultraconserved elements analysis in the context of 3D genomic structures (TADs, boundaries, loop anchors). Enriched (obseerved/expected overlaps) in domains, depleted in boundaries, no enrichment in loops. Separate analysis for exonic, intronic, intergenic UCEs. Human and mouse Hi-C data. Supplementary tables - coordinates of UCEs, more. https://github.com/rmccole/UCEs_genome_organization
     - [McCole_2018] - Supplementary material, https://www.cell.com/action/showImagesData?pii=S2211-1247%2818%2930941-0
     - [mmc2.xlsx] - Table S1. Hi-C Datasets, genomic coordinates of human/mouse pooled domains/boundaries, cell-specific domains/boundaries
-    - [mmc3.xlsx` Table S2. Depletion/Enrichment Analysis. "C" and "D" sheets have genomic coordinates of hg19/mm9 UCEs and their Intergenic/intronic/exonic subsets.
+    - [mmc3.xlsx] - Table S2. Depletion/Enrichment Analysis. "C" and "D" sheets have genomic coordinates of hg19/mm9 UCEs and their Intergenic/intronic/exonic subsets.
 
 - Nagano, Takashi, Csilla Várnai, Stefan Schoenfelder, Biola-Maria Javierre, Steven W. Wingett, and Peter Fraser. “Comparison of Hi-C Results Using in-Solution versus in-Nucleus Ligation.” Genome Biology 16 (August 26, 2015): 175. https://doi.org/10.1186/s13059-015-0753-7. - comparing _in situ_ and _in solution_ HiC ligation protocol. Mouse liver cells and human ES cells. Two biological and two technical replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70181
 

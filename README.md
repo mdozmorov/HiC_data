@@ -131,6 +131,9 @@ Classical datasets for TAD/loop identification, provided as raw and normalized m
 
 # Tissue-specific
 
+- ChIA-PET loops and gene expression in 24 human cell types. RAD21, H3K27ac, RNA-seq. 28% of loops are variable, distinguish cells by tissue of origin, shorter, depleted of housekeeping genes, coincide with different chromatin states. Genes that have more interactions are depleted in housekeeping functions and enriched for pathogenic variants. [Supplementary material](https://www.nature.com/articles/s41586-020-2151-x#Sec59) has hg19 coordinates of [RAD21 peaks](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2151-x/MediaObjects/41586_2020_2151_MOESM4_ESM.xlsx), [Pan-cell type cohesin-mediated chromatin loops](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2151-x/MediaObjects/41586_2020_2151_MOESM5_ESM.xlsx), [H3K27ac peaks](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2151-x/MediaObjects/41586_2020_2151_MOESM6_ESM.xlsx), and more
+    - Grubert, Fabian, Rohith Srivas, Damek  V Spacek, Maya Kasowski, Mariana Ruiz-Velasco, Nasa Sinnott-Armstrong, Peyton Greenside, et al. “[Landscape of Cohesin-Mediated Chromatin Loops in the Human Genome](https://doi.org/10.1038/s41586-020-2151-x).” Nature 583, no. 7818 (July 2020)
+
 ## ENCODE
 
 Search query for any type of Hi-C data, e.g., human brain, https://www.encodeproject.org/search/?type=Experiment&assay_slims=3D+chromatin+structure&assay_title=Hi-C&organ_slims=brain

@@ -193,7 +193,10 @@ Search query for any type of Hi-C data, e.g., human brain, https://www.encodepro
 - Data For RWPE1, C42B, 22Rv1 cell lines: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118629. In situ Hi-C, 4-cutter MboI,  replicated, text-based sparse matrices at 10kb and 40kb resolution, raw and ICE-normalized, hg19. H3K9me3, H3K27me3, H3K36me3, RNA-seq.
 - [Supplementary data](https://www.nature.com/articles/s41467-019-12079-8#Sec22): Data 2 - TAD coordinates and annotations; Data 3 - differentially expressed genes in smaller TADs; Data 4 - gene expression changes in TADs switching epigenomic state; Data 5 - enhancer-promoter loops; Data 6 - coordinates of nucleosome-depleted regions; Data 7 - all differentially expressed genes; Data 8 - target genes of FOXA1-bound enhancers; Data 9 - overexpressed genes with more enhancer-promoter loops
     - Rhie, Suhn Kyong, Andrew A. Perez, Fides D. Lay, Shannon Schreiner, Jiani Shi, Jenevieve Polin, and Peggy J. Farnham. “A High-Resolution 3D Epigenomic Map Reveals Insights into the Creation of the Prostate Cancer Transcriptome.” Nature Communications 10, no. 1 (December 2019): 4154. https://doi.org/10.1038/s41467-019-12079-8.
-
+    
+- In situ HiC libraries in biological replicates (n=2) for several hematopoietic celltypes (200mio reads per replicate) with 
+a focus on the B cell lineage in mice. The authors investigate the role of the transcription factor Pax5 towards its supervisiory role of organizing the 3D genome architecture throughout B cell differentiation. The raw data are available via https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99151.  
+    - Timothy M. Johanson, Aaron T. L. Lun, Hannah D. Coughlan, Tania Tan, Gordon K. Smyth, Stephen L. Nutt & Rhys S. Allan. "Transcription-factor-mediated supervision of global genome architecture maintains B cell identity." Nature Immunology volume 19, pages 1257–1264 (2018). https://www.nature.com/articles/s41590-018-0234-8
 
 
 # Timecourse Hi-C

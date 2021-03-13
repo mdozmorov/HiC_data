@@ -68,6 +68,10 @@ http://mirnylab.mit.edu/
 - Data from multiple studies, in one place, in `.cool` format: ftp://cooler.csail.mit.edu/coolers
 - Convert to any other format with `cooler` https://cooler.readthedocs.io/
 
+- Depletion of the cohesin-loading factor Nipbl. Three conditions: wild-type, tamoxifen control and deltaNipbl mice liver. TADs disappear, A/B compartments reinforced, minimal nonspecific effect on gene expression. Disappearing TADs unmask finer level of chromatin organization that is better associated with epigenetic landscape. TADs and compartments are independent types of chromosomal organization, but overlapping. Ideas: Excluding low-coverage bins using MAD-max procedure (Methods). Global compartmentalization. [Lavaburst](https://github.com/nvictus/lavaburst) - TAD detection using Filippova method. [Tethered Hi-C, H3K4me3, H3K27ac, CTCF, Rad21, Smc3 ChIP-seq and RNA-seq data and visualization](http://mirnylab.mit.edu/projects/nipbl/), [GEO GSE93431](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93431)
+    - Schwarzer, Wibke, Nezar Abdennur, Anton Goloborodko, Aleksandra Pekowska, Geoffrey Fudenberg, Yann Loe-Mie, Nuno A. Fonseca, et al. “[Two Independent Modes of Chromatin Organization Revealed by Cohesin Removal](https://doi.org/10.1038/nature24281).” Nature, (02 2017)
+
+
 
 ## Bing Ren lab
 

@@ -174,6 +174,9 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 ## Non-human data
 
+- tagHi-C protocol tor low-input tagmentation-based Hi-C. Applied to mouse hematopoiesis 10 major blood cell types. Changes in compartments and the Rabl configuration defining chromatin condensation. Gene-body-associating domains are a general property of highly-expressed genes. Spatial chromatin loops link GWAS SNPs to candidate blood-phenotype genes. HiC-Pro to Juicer. [GEO GSE142216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142216) - RNA-seq, replicates, [GEO GSE152918](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152918) - tagHi-C data, replicates, combined .hic files 
+    - Zhang C, Xu Z, Yang S, Sun G, Jia L, Zheng Z, Gu Q, Tao W, Cheng T, Li C, Cheng H. "[tagHi-C Reveals 3D Chromatin Architecture Dynamics during Mouse Hematopoiesis](https://doi.org/10.1016/j.celrep.2020.108206)." Cell Rep. 2020 Sep 29 
+
 - Single-nucleus Hi-C data (scHi-C) of 88 Drosophila BG3 cells. 2-5M paired-end reads per cell, 10kb resolution. ORBITA pipeline to eliminate the effect of Phi29 DNA polymerase template switching. Chromatin compartments approx. 1Mb in size, non-hierarchical conserved TADs can be detected. Lots of biology, integration with other omics data. Raw and processed data in .cool format at [GEO GSE131811](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131811)
     - Ulianov, Sergey V., Vlada V. Zakharova, Aleksandra A. Galitsyna, Pavel I. Kos, Kirill E. Polovnikov, Ilya M. Flyamer, Elena A. Mikhaleva, et al. “[Order and Stochasticity in the Folding of Individual Drosophila Genomes](https://doi.org/10.1038/s41467-020-20292-z).” Nature Communications 12, no. 1 (December 2021)
 

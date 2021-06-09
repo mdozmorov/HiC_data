@@ -92,7 +92,9 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## Feng Yue lab
 
-[3D Genome Browser](http://3dgenome.fsm.northwestern.edu) - Classical datasets for TAD/loop identification, provided as raw and normalized matrices, genomic coordinates of TADs/loops, tools for various 3C data analysis.
+- [Data from Yue lab](http://3dgenome.fsm.northwestern.edu/publications.html)
+
+- [3D Genome Browser](http://3dgenome.fsm.northwestern.edu) - Classical datasets for TAD/loop identification, provided as raw and normalized matrices, genomic coordinates of TADs/loops, tools for various 3C data analysis.
 
 
 ## 4D Nucleome Data Portal

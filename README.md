@@ -96,6 +96,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 - [3D Genome Browser](http://3dgenome.fsm.northwestern.edu) - Classical datasets for TAD/loop identification, provided as raw and normalized matrices, genomic coordinates of TADs/loops, tools for various 3C data analysis.
 
+- Iyyanki, Tejaswi. “[Subtype-Associated Epigenomic Landscape and 3D Genome Structure in Bladder Cancer](https://doi.org/10.1186/s13059-021-02325-y),” Genome Biology, 15 April 2021 - 3D genomics of bladder cancer. 4 cancer cell lines (luminal: RT4 and SW780; basal: SCABER and HT1376), 5 patients. H3K27ac ChIP-seq, RNA-seq (DESeq2), ATAC-seq (TCGA), Hi-C data (Arima, hg19). Peakachu for loop prediction, CNVs with HiNT and Hi-Cbreakfinder.
+    - [Additional file 14: Table S13.](https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-021-02325-y/MediaObjects/13059_2021_2325_MOESM14_ESM.xlsx) - Luminal-specific and Basal-specific loops.
+    - [GEO GSE148079](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148079)
+    - [GitHub](https://github.com/Qixuan771/Source-code-for-bladder-cancer-project)
+
 
 ## 4D Nucleome Data Portal
 

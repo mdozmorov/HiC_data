@@ -94,6 +94,13 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 - [Data from Yue lab](http://3dgenome.fsm.northwestern.edu/publications.html)
 
+- [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder), Wang, Xiaotao, Jie Xu, Baozhen Zhang, Ye Hou, Fan Song, Huijue Lyu, and Feng Yue. “[Genome-Wide Detection of Enhancer-Hijacking Events from Chromatin Interaction Data in Rearranged Genomes](https://doi.org/10.1038/s41592-021-01164-w).” Nature Methods, (June 2021)
+    - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM3_ESM.xlsx) - Details of the 50 cancer Hi-C datasets, references to GEO and 4DNucleome.
+    - [Supplementary Table 3](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM4_ESM.xlsx) - Coordinates (hg38) of large SVs detected in each sample.
+    - [Supplementary Table 4](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM5_ESM.xlsx) - Genomic coordinates of the detected neoloops in each sample.
+    - [Supplementary Table 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM6_ESM.xlsx) - List of neoloop-involved genes identified in each sample.
+    - [Supplementary Table 8](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM8_ESM.xlsx) - List of the annotated enhancer-hijacking events in 11 cancer cell lines: A549, K562, LNCaP, MCF7, T47D, HepG2, SK-MEL-5, NCI-H460, PANC-1, HT-1080 and C4-2B.
+
 - [3D Genome Browser](http://3dgenome.fsm.northwestern.edu) - Classical datasets for TAD/loop identification, provided as raw and normalized matrices, genomic coordinates of TADs/loops, tools for various 3C data analysis.
 
 - Iyyanki, Tejaswi. “[Subtype-Associated Epigenomic Landscape and 3D Genome Structure in Bladder Cancer](https://doi.org/10.1186/s13059-021-02325-y),” Genome Biology, 15 April 2021 - 3D genomics of bladder cancer. 4 cancer cell lines (luminal: RT4 and SW780; basal: SCABER and HT1376), 5 patients. H3K27ac ChIP-seq, RNA-seq (DESeq2), ATAC-seq (TCGA), Hi-C data (Arima, hg19). Peakachu for loop prediction, CNVs with HiNT and Hi-Cbreakfinder.

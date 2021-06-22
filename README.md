@@ -25,6 +25,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 - [Promoter-enhancer interactions](#promoter-enhancer-interactions)
 - [Integrative Hi-C](#integrative-hi-c)
 - [Single-cell Hi-C](#single-cell-hi-c)
+- [GAM](#gam)
 - [CTCF](#ctcf)
 - [Misc](#misc)
 
@@ -265,6 +266,13 @@ a focus on the B cell lineage in mice. The authors investigate the role of the t
 # Single-cell Hi-C
 
 See [Notes on single-cell Hi-C technologies, tools, and data](https://github.com/mdozmorov/scHiC_notes) repository
+
+# GAM
+
+Genome Architecture Mapping data
+
+- [GEO GSE64881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64881) - mouse ES cell GAM matrices at 1Mb and 30kb resolution
+    - Beagrie, Robert A., Antonio Scialdone, Markus Schueler, Dorothee C. A. Kraemer, Mita Chotalia, Sheila Q. Xie, Mariano Barbieri, et al. “[Complex Multi-Enhancer Contacts Captured by Genome Architecture Mapping](https://doi.org/10.1038/nature21411).” Nature 543, no. 7646 (23 2017)
 
 # CTCF
 

@@ -148,6 +148,9 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 - Breast cancer. MCF-7 cell line. 3D response to estrogen, time course (0, 0.5h, 1h, 4h, 24h), replicate comparison. [GSE51687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51687)
     - Tordini, Fabio, Marco Aldinucci, Luciano Milanesi, Pietro Liò, and Ivan Merelli. “[The Genome Conformation As an Integrator of Multi-Omic Data: The Example of Damage Spreading in Cancer](https://doi.org/10.3389/fgene.2016.00194).” Frontiers in Genetics 7 (November 15, 2016). 
 
+- Haplotype-resolved Hi-C of GM12878, integrated with RNA-seq and Bru-seq (nascent mRNA). Investigation of Monoallelic expression (MAE) and Allele-Biased expression (ABE). [GEO GSE159813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159813)
+    - Lindsly, Stephen, Wenlong Jia, Haiming Chen, Sijia Liu, Scott Ronquist, Can Chen, Xingzhao Wen, et al. “[Functional Organization of the Maternal and Paternal Human 4D Nucleome](https://doi.org/10.1101/2020.03.15.992164),” bioRxiv, June 17, 2021.
+
 
 # Tissue-specific
 

@@ -192,6 +192,9 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 ## Non-human data
 
+- RNA-seq, ATAC-seq, ChIP-seq, whole genome methylation (30X), Hi-C in 11 adult and two embryonic tissues on zebrafish. Comparison with human and mouse regulatory elements. Enrichment of evolutionary breakpoints at TAD boundaries, H3K4me3 and CCTF signal.De novo chr4 assembly (sex chromosome). scATAC-seq on zebrafish brain - 25 cell types. [GEO GSE134055](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134055), [Tweet](https://twitter.com/yuefeng_1/status/1331664006881439744?s=20)
+    - Yang, Hongbo, Yu Luan, Tingting Liu, Hyung Joo Lee, Li Fang, Yanli Wang, Xiaotao Wang, et al. “[A Map of Cis-Regulatory Elements and 3D Genome Structures in Zebrafish](https://doi.org/10.1038/s41586-020-2962-9).” Nature, November 25, 2020. 
+
 - tagHi-C protocol for low-input tagmentation-based Hi-C. Applied to mouse hematopoiesis 10 major blood cell types. Changes in compartments and the Rabl configuration defining chromatin condensation. Gene-body-associating domains are a general property of highly-expressed genes. Spatial chromatin loops link GWAS SNPs to candidate blood-phenotype genes. HiC-Pro to Juicer. [GEO GSE142216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142216) - RNA-seq, replicates, [GEO GSE152918](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152918) - tagHi-C data, replicates, combined .hic files 
     - Zhang C, Xu Z, Yang S, Sun G, Jia L, Zheng Z, Gu Q, Tao W, Cheng T, Li C, Cheng H. "[tagHi-C Reveals 3D Chromatin Architecture Dynamics during Mouse Hematopoiesis](https://doi.org/10.1016/j.celrep.2020.108206)." Cell Rep. 2020 Sep 29 
 

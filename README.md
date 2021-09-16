@@ -26,6 +26,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 - [Integrative Hi-C](#integrative-hi-c)
 - [Single-cell Hi-C](#single-cell-hi-c)
 - [GAM](#gam)
+- [Imaging](#imaging)
 - [CTCF](#ctcf)
 - [Misc](#misc)
 
@@ -282,6 +283,16 @@ Genome Architecture Mapping data
 
 - [GEO GSE64881](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64881) - mouse ES cell GAM matrices at 1Mb and 30kb resolution
     - Beagrie, Robert A., Antonio Scialdone, Markus Schueler, Dorothee C. A. Kraemer, Mita Chotalia, Sheila Q. Xie, Mariano Barbieri, et al. “[Complex Multi-Enhancer Contacts Captured by Genome Architecture Mapping](https://doi.org/10.1038/nature21411).” Nature 543, no. 7646 (23 2017)
+
+# Imaging
+
+- [MERFISH](https://github.com/BogdanBintu/ChromatinImaging) - Super-resolution imaging technology, reconstruction 3D structure in single cells at 30kb resolution, 1.2Mb region of Chr21 in IMR90 cells. Distance maps obtained by microscopy show small distance for loci within, and larger between, TADs. TAD-like structures exist in single cells. 2.5Mb region of Chr21 in HCT116 cells, cohesin depletion does not abolish TADs, only alter their preferential positioning. Multi-point (triplet) interactions are prevalent. TAD boundaries are highly heterogeneous in single cells. , diffraction-limited and STORM (stochastic optical reconstruction microscopy) imaging. [GitHub](https://github.com/BogdanBintu/ChromatinImaging)
+    - Bintu, Bogdan, Leslie J. Mateo, Jun-Han Su, Nicholas A. Sinnott-Armstrong, Mirae Parker, Seon Kinrot, Kei Yamaya, Alistair N. Boettiger, and Xiaowei Zhuang. “[Super-Resolution Chromatin Tracing Reveals Domains and Cooperative Interactions in Single Cells](https://doi.org/10.1126/science.aau1783).” Science, (October 26, 2018)
+
+- Single-cell level massively multiplexed FISH (MERFISH, sequential genome imaging) to measure 3D genome structure in context of gene expression and nuclear structures. Approx. 650 loci, 50kb resolution, on chr21 10.4-46.7Mb from the hg38 genome assembly, IMR90 cells, population average from approx. 12K chr21 copies, multiple rounds of hybridization. Investigation of TADs, A/B compartments, 87% agreement with bulk Hi-C. Association with cell type markers, transcription. Genome-scale imaging using barcodes, 1041 30kb loci covering autosomes and chrX of IMR90, over 5K cells, 5 replicates. [Processed multiplexed FISH data and more, TXT format](https://zenodo.org/record/3928890), [GitHub](https://github.com/ZhuangLab/Chromatin_Analysis_2020_cell)
+    - Su, Jun-Han, Pu Zheng, Seon S. Kinrot, Bogdan Bintu, and Xiaowei Zhuang. “[Genome-Scale Imaging of the 3D Organization and Transcriptional Activity of Chromatin](https://doi.org/10.1016/j.cell.2020.07.032).” Cell, August 2020
+
+- [Parser of multiplexed single-cell imaging data from Bintu et al. 2018 and Su et al. 2020](https://github.com/agalitsyna/DPDchrom_input_parser) - Take 3D coordinates of the regions as input and write the distance and contact matrices for these datasets.
 
 # CTCF
 

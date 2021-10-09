@@ -207,6 +207,9 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 # Differential Hi-C
 
+- WIZ (widely interspaced zinc finger-containing protein) - new loop-organizing protein, colocalizes with CTCF and cohesin across the genome. Loss of WIZ increases cohesin occupancy and DNA loops. WIZ maintains proper gene expression and stem cell identity. Arima, Juicer. [GEO GSE137285](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137285) - RNA-seq, ChIP-seq, Hi-C replicates in WT and WIZdel mouse ESCs.
+    - Justice, Megan, Zachary M. Carico, Holden C. Stefan, and Jill M. Dowen. “[A WIZ/Cohesin/CTCF Complex Anchors DNA Loops to Define Gene Expression and Cell Identity](https://doi.org/10.1016/j.celrep.2020.03.067).” Cell Reports 31, no. 2 (April 2020)
+
 - 3D chromatin reorganization during different types of cellular senescence, replicative (RS) and oncogene-induced (OIS over time course). Senescence-associated heterochromatin loci (SAHFs), formed with the help of DNMT1 via regulation of MMGA2 expression. WI38 primary fibroblasts. OIS - gain in long-range contacts. diffHiC analysis, differential regions enriched in H3K9me3. TADkit for 3D modeling, [visualization](https://vre.multiscalegenomics.eu/data_repositories/data_senescence.php). Data (Hi-C replicates, different conditions, timecourse, H3K4me3/H3K9me3/H3K27ac ChIP-seq, RNA-seq) [GEO GSE130306](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130306)
     - Sati, Satish, Boyan Bonev, Quentin Szabo, Daniel Jost, Paul Bensadoun, Francois Serra, Vincent Loubiere, et al. “[4D Genome Rewiring during Oncogene-Induced and Replicative Senescence](https://doi.org/10.1016/j.molcel.2020.03.007).” Molecular Cell, March 2020
 

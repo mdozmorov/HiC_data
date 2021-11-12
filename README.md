@@ -113,8 +113,14 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## 4D Nucleome Data Portal
 
-- https://data.4dnucleome.org/ - downloadable data from key chromosome conformation capture papers. 
-- https://www.4dnucleome.org/software.html - alphabetical list of Hi-C software.
+- [4D Nucleome Data Portal](https://data.4dnucleome.org/) - chromatin conformation-related datasets, uniformly prodessed, integrated with the HiGlass genome browser, comparison possible. Overview of first and second phases of the 4DN project. Other repositories that host Hi-C and similar datasets include the ENCODE portal, NCBI's GEO and EMBL-EBI’s ArrayExpress. 
+    - Reiff, Sarah B, Andrew J Schroeder, Koray Kirli, Andrea Cosolo, Clara Bakker, Luisa Mercado, Soohyun B Lee, et al. “[The 4D Nucleome Data Portal: A Resource for Searching and Visualizing Curated Nucleomics Data](https://doi.org/10.1101/2021.10.14.464435).” Preprint. Genomics, October 15, 2021. 
+    - Genomics datasets - [Hi-C](https://data.4dnucleome.org/resources/data-collections/high-resolution-hic-datasets) (in situ, dilution), Micro-C, DNase Hi-C Hi-C 3.0, Capture Hi-C, TCC, single-cell variants, SPRITE, GAM. ChIA-PET, ChIA-Drop, PLAC-seq, ChIP-seq, CUT&RUN, Repli-seq, others. .cool and .mcool formats, A/B compartments and TAD boundaries (insulation score) are called using cooltools. Data are in [three tiers](https://4dnucleome.org/cell-lines.html): Tier 1 (H1-ESC, GM12878, IMR90, HFF-hTERT (clone 6), and WTC-11), Tier 2 and untiered. 
+    - [Microscopy datasets](https://data.4dnucleome.org/microscopy-data-overview) - standard FISH (DNA or RNA), multi-loci FISH, high-throughput FISH, dynamic single particle tracking. 
+    - [Hi-C Processing Pipeline](https://data.4dnucleome.org/resources/data-analysis/hi_c-processing-pipeline) (BWA MEM with the -SP5M option)
+    - [Domain Calling Pipelines](https://data.4dnucleome.org/resources/data-analysis/insulation_compartment_scores)
+    - [4DN Visualization Workspace](https://data.4dnucleome.org/tools/visualization)
+    - [4DN Software](https://www.4dnucleome.org/software.html) - alphabetical list of Hi-C software.
 
 
 # Cancer

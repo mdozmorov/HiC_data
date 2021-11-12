@@ -25,6 +25,7 @@ A (continuously updated) collection of references to Hi-C data. Predominantly hu
 - [Promoter-capture Hi-C](#promoter-capture-hi-c)
 - [Integrative Hi-C](#integrative-hi-c)
 - [Single-cell Hi-C](#single-cell-hi-c)
+- [Micro-C](#micro-c)
 - [GAM](#gam)
 - [Imaging](#imaging)
 - [CTCF](#ctcf)
@@ -285,6 +286,10 @@ a focus on the B cell lineage in mice. The authors investigate the role of the t
 # Single-cell Hi-C
 
 See [Notes on single-cell Hi-C technologies, tools, and data](https://github.com/mdozmorov/scHiC_notes) repository
+
+# Micro-C
+
+See the [Micro-C](https://github.com/mdozmorov/HiC_tools#micro-c) section in the [HiC_tools](https://github.com/mdozmorov/HiC_tools) repository
 
 # GAM
 

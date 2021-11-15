@@ -314,6 +314,9 @@ Genome Architecture Mapping data
 
 # Integrative Hi-C
 
+- Du, Qian, Grady C. Smith, Phuc Loi Luu, James M. Ferguson, Nicola J. Armstrong, C. Elizabeth Caldon, Elyssa M. Campbell, et al. “[DNA Methylation Is Required to Maintain Both DNA Replication Timing Precision and 3D Genome Organization Integrity](https://doi.org/10.1016/j.celrep.2021.109722).” Cell Reports, (September 2021)
+    - Link between DNA methylation, 3D genome regulation, replication timing. Hypomethylation, shift in partially methylated domain boundaries, are associated with the disruption of 3D genome compartmentalization, replication timing heterogeneity, loss of allele-specific replication, change in gene expression. Wide (non-canonical) H3K4me3-H3K8me3 domains protect late replication. [GEO GSE158011](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158011) -  Repli-seq, in situ Hi-C in HCT116 and DKO1 cells, 10X Genomics single cell RNA-seq, Nanopore sequencing; [GEO GSE58638](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58638) - Histone ChIP-seq, and more references in Methods. [Scripts](https://github.com/qianxidu/Replication_Timing_Du_et_al_2021) and many tools in Methods.
+
 - Zhang, Ruochi, and Jian Ma. “[MATCHA: Probing Multi-Way Chromatin Interaction with Hypergraph Representation Learning](https://doi.org/10.1016/j.cels.2020.04.004).” Cell Systems 10, no. 5 (May 2020)
     - GM129878-specific [SPRITE](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114242), [Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63525), [single-cell Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84920) data (also, [Repli-seq](https://data.4dnucleome.org/experiments-repliseq/4DNEXI55T28T/)).
     - Drosophila S2 cell line [ChIA-Drop](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109355), [Hi-C](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99104)

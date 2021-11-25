@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-A (continuously updated) collection of references to Hi-C data. Predominantly human/mouse Hi-C data, with replicates. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
+A (continuously updated) collection of references to Hi-C data and papers. Predominantly human/mouse Hi-C data, with replicates. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -208,6 +208,9 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 - Single-nucleus Hi-C data (scHi-C) of 88 Drosophila BG3 cells. 2-5M paired-end reads per cell, 10kb resolution. ORBITA pipeline to eliminate the effect of Phi29 DNA polymerase template switching. Chromatin compartments approx. 1Mb in size, non-hierarchical conserved TADs can be detected. Lots of biology, integration with other omics data. Raw and processed data in .cool format at [GEO GSE131811](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131811)
     - Ulianov, Sergey V., Vlada V. Zakharova, Aleksandra A. Galitsyna, Pavel I. Kos, Kirill E. Polovnikov, Ilya M. Flyamer, Elena A. Mikhaleva, et al. “[Order and Stochasticity in the Folding of Individual Drosophila Genomes](https://doi.org/10.1038/s41467-020-20292-z).” Nature Communications 12, no. 1 (December 2021)
+
+- 3D chromatin organization during spermatogenesis, mouse. Meyotic chromosomes in prophase have weak compartmentalization, TADs, loops. Enrichment in near inter-chromosomal interactions (close to diagonal). The X chromosome lacks domain organization during meiotic sex-chromosome inactivation. Concept and formula for evaluation of genomic compartment strength (Methods). [GEO ](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119805) - Hi-C of meiotic pachytene spermatocytes (PS; 2 biological replicates). Other public Hi-C, RNA-seq, ChIP-seq data.
+    - Alavattam, Kris G. “[Attenuated Chromatin Compartmentalization in Meiosis and Its Maturation in Sperm Development](https://doi.org/10.1038/s41594-019-0189-y).” Molecular Biology 26 (2019): 17.
 
 - TADs in Drosophila, Hi-C and RNA-seq in four cell lines of various origin. dCTCF, SMC3, and Su(Hw) are weakly enriched at TAD boundaries. Transcription and active chromatin (H3K27ac, H3K4me1, H3K4me3, H3K36me3, H4K16ac) are associated with TAD boundaries. Also, BEAF-32 and CP190. Hierarchical TADs. Housekeeping genes tend to be near TAD boundaries and in inter-TAD regions. TAD boundary prediction using regression, modeling to associate TADs with bands, investigation of the hierarchy. Heavy use of the Armatus TAD caller. RNA-seq and replicate Hi-C data, high correlation, merged into 20kb resolution.  [GEO GSE69013](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69013)
     - Ulianov, Sergey V., Ekaterina E. Khrameeva, Alexey A. Gavrilov, Ilya M. Flyamer, Pavel Kos, Elena A. Mikhaleva, Aleksey A. Penin, et al. “[Active Chromatin and Transcription Play a Key Role in Chromosome Partitioning into Topologically Associating Domains](https://doi.org/10.1101/gr.196006.115).” Genome Research 26, no. 1 (January 2016)

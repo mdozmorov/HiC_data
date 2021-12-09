@@ -13,7 +13,7 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
   - [Leonid Mirny lab](#leonid-mirny-lab)
   - [Bing Ren lab](#bing-ren-lab)
   - [Feng Yue lab](#feng-yue-lab)
-  - [4D Nucleome Data Portal](#4d-nucleome-data-portal)
+  - [4D Nucleome](#4d-nucleome)
 - [Cancer](#cancer)
 - [Tissue-specific](#tissue-specific)
   - [ENCODE](#encode)
@@ -112,7 +112,7 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
     - [GitHub](https://github.com/Qixuan771/Source-code-for-bladder-cancer-project)
 
 
-## 4D Nucleome Data Portal
+## 4D Nucleome 
 
 - [4D Nucleome Data Portal](https://data.4dnucleome.org/) - chromatin conformation-related datasets, uniformly prodessed, integrated with the HiGlass genome browser, comparison possible. Overview of first and second phases of the 4DN project. Other repositories that host Hi-C and similar datasets include the ENCODE portal, NCBI's GEO and EMBL-EBI’s ArrayExpress. 
     - Reiff, Sarah B, Andrew J Schroeder, Koray Kirli, Andrea Cosolo, Clara Bakker, Luisa Mercado, Soohyun B Lee, et al. “[The 4D Nucleome Data Portal: A Resource for Searching and Visualizing Curated Nucleomics Data](https://doi.org/10.1101/2021.10.14.464435).” Preprint. Genomics, October 15, 2021. 
@@ -123,6 +123,10 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
     - [4DN Visualization Workspace](https://data.4dnucleome.org/tools/visualization)
     - [4DN Software](https://www.4dnucleome.org/software.html) - alphabetical list of Hi-C software.
 
+- [4dnucleome.eu](https://www.4dnucleome.eu/) - 4DNucleome Initiative in Europe
+
+MuGVRE?
+The MuG Virtual Research Environment supports the expanding 3D/4D genomics community by developing tools to integrate the navigation in genomics data from sequence to 3D/4D chromatin dynamics data
 
 # Cancer
 

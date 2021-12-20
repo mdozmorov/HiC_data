@@ -227,6 +227,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 # Differential Hi-C
 
+- Liquid-liquid phase separation (LLPS) in haematological cancers is associated with intrinsically disordered regions (IDRs) of NUP98-HOXA TF chimera and induces CTCF-independent chromatin loops enriched in proto-oncogenes. Many biochemical assays, imaging, mass-spec, ChIP-seq, RNA-seq. All data at [GEO GSE144643](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144643). In situ Hi-C (HEK293FT kidney cells, IDR wild type and mutated, biological and technical replicates) at [GEO GSE143465](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143465). <details>
+    <summary>Paper</summary>
+    Ahn, Jeong Hyun, Eric S. Davis, Timothy A. Daugird, Shuai Zhao, Ivana Yoseli Quiroga, Hidetaka Uryu, Jie Li, et al. “Phase Separation Drives Aberrant Chromatin Looping and Cancer Development.” Nature, June 23, 2021. https://doi.org/10.1038/s41586-021-03662-5.
+</details>
+
 - WIZ (widely interspaced zinc finger-containing protein) - new loop-organizing protein, colocalizes with CTCF and cohesin across the genome. Loss of WIZ increases cohesin occupancy and DNA loops. WIZ maintains proper gene expression and stem cell identity. Arima, Juicer. [GEO GSE137285](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137285) - RNA-seq, ChIP-seq, Hi-C replicates in WT and WIZdel mouse ESCs.
     - Justice, Megan, Zachary M. Carico, Holden C. Stefan, and Jill M. Dowen. “[A WIZ/Cohesin/CTCF Complex Anchors DNA Loops to Define Gene Expression and Cell Identity](https://doi.org/10.1016/j.celrep.2020.03.067).” Cell Reports 31, no. 2 (April 2020)
 

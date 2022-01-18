@@ -168,8 +168,7 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
     - Supplementary Data 5: Distances between published risk SNPs and putative CHi-C target genes (kb) at 36 informative risk loci (cytoband, SNP, hg19 coordinates, gene targets)
     - Supplementary Data 6: eQTL analysis of 69 protein coding target genes at 26 risk loci in TCGA breast cancer data
     - Supplementary Data 7: Disease-specific survival analysis of 97 target genes in Metabric data
-</details>
-<details>
+</details> <details>
     <summary>Paper</summary>
     Baxter, Joseph S., Olivia C. Leavy, Nicola H. Dryden, Sarah Maguire, Nichola Johnson, Vita Fedele, Nikiana Simigdala, et al. “Capture Hi-C Identifies Putative Target Genes at 33 Breast Cancer Risk Loci.” Nature Communications 9, no. 1 (December 2018): 1028. https://doi.org/10.1038/s41467-018-03411-9
 </details>

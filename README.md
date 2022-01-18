@@ -142,6 +142,22 @@ The MuG Virtual Research Environment supports the expanding 3D/4D genomics commu
 - 3D genomics of glioblastoma. Replicate samples from three patients. Sub-5kb-resolution Hi-C data, integration with ChIP- and RNA-seq. Data: Six Hi-C replicates, [EGAS00001003493](https://ega-archive.org/studies/EGAS00001003493), ChIP-seq [GSE121601](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121601), RNA-seq data [EGAS00001003700](https://www.ebi.ac.uk/ega/studies/EGAS00001003700). [Processed data](https://wangftp.wustl.edu/hubs/johnston_gallo/)
     - Johnston, Michael J., Ana Nikolic, Nicoletta Ninkovic, Paul Guilhamon, Florence M.G. Cavalli, Steven Seaman, Franz J. Zemp, et al. “[High-Resolution Structural Genomics Reveals New Therapeutic Vulnerabilities in Glioblastoma](https://doi.org/10.1101/gr.246520.118).” Genome Research 29, no. 8 (August 2019) 
 
+- Capture Hi-C (CHi-C) to annotate 63 breast cancer risk loci. 110 target genes at 33 loci, supported bu other evidence (eQTLs, disease-specific survival). Two ER+ breast cancer cell lines (T-47D, ZR-75-1), two ER− breast cancer cell lines (BT-20, MDA- MB-231), one “normal” breast epithelial cell line (Bre80-Q-TERT (Bre80)) and a non-breast lymphoblastoid cell line (GM06990). Approx 40% of interaction peaks are present in multiple cell lines. More interactions within TADs. [WashU session with all CHi-C interaction peaks](https://bit.ly/CHiC-BC). **Table 2** Risk loci which formed interaction peaks directly (N = 33) or via an adjacent risk locus (N = 3) with 110 target genes (locus, SNP, gene targets, nearest gene). **Table 3** Nine CHi-C putative target genes that were statistically significant eQTLs (FDR adjusted P < 0.1) (locus, SNP, gene, p-values in all, ER+/- cancers). **Table 4** Six CHi-C putative target genes for which there was orthogonal support for at least two additional data sources. [PRJEB23968](https://www.ebi.ac.uk/ena/browser/view/PRJEB23968?show=reads) - FASTQ files. <details>
+    <summary>Supplementary material</summary>
+    - https://www.nature.com/articles/s41467-018-03411-9#Sec23
+    - Supplementary Data 1: Captured genomic regions (Locus, SNP, hg19 coordinates, size, reference)
+    - Supplementary Data 2: Numbers of statistically significant interaction peaks in six cell lines at 51 informative loci and 12 uninformative loci
+    - Supplementary Data 2: Coordinates of interacting pairs detected in at least two cell lines (bedpe, -log10 FDR of interaction significance, cell line, numbed of cells)
+    - Supplementary Data 4: Risk loci which formed interaction peaks with target genes in T-47D (T), ZR-75-1 (Z), Bre80 (Br), BT-20 (BT), MDA-MB-231 (M) and GM06990 (G) cell lines. (cytoband, SNP, gene targets).
+    - Supplementary Data 5: Distances between published risk SNPs and putative CHi-C target genes (kb) at 36 informative risk loci (cytoband, SNP, hg19 coordinates, gene targets)
+    - Supplementary Data 6: eQTL analysis of 69 protein coding target genes at 26 risk loci in TCGA breast cancer data
+    - Supplementary Data 7: Disease-specific survival analysis of 97 target genes in Metabric data
+</details>
+<details>
+    <summary>Paper</summary>
+    Baxter, Joseph S., Olivia C. Leavy, Nicola H. Dryden, Sarah Maguire, Nichola Johnson, Vita Fedele, Nikiana Simigdala, et al. “Capture Hi-C Identifies Putative Target Genes at 33 Breast Cancer Risk Loci.” Nature Communications 9, no. 1 (December 2018): 1028. https://doi.org/10.1038/s41467-018-03411-9
+</details>
+
 - Ten non-replicated Hi-C datasets. Two human lymphoblastoid cell lines with known chromosomal translocations (FY1199 and DD1618), transformed mouse cell line (EKLF), six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86), a normal human cell line control (GM07017). [GSE81879](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879)
 - Harewood, Louise, Kamal Kishore, Matthew D. Eldridge, Steven Wingett, Danita Pearson, Stefan Schoenfelder, V. Peter Collins, and Peter Fraser. “[Hi-C as a Tool for Precise Detection and Characterisation of Chromosomal Rearrangements and Copy Number Variation in Human Tumours](https://doi.org/10.1186/s13059-017-1253-8).” Genome Biology 18, no. 1 (December 2017). 
 

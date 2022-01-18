@@ -15,6 +15,7 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
   - [Feng Yue lab](#feng-yue-lab)
   - [4D Nucleome](#4d-nucleome)
 - [Cancer](#cancer)
+  - [BRCA](#brca)
 - [Tissue-specific](#tissue-specific)
   - [ENCODE](#encode)
   - [Brain](#brain)
@@ -125,22 +126,37 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 - [4dnucleome.eu](https://www.4dnucleome.eu/) - 4DNucleome Initiative in Europe
 
-MuGVRE?
-The MuG Virtual Research Environment supports the expanding 3D/4D genomics community by developing tools to integrate the navigation in genomics data from sequence to 3D/4D chromatin dynamics data
+- [MuGVRE](https://www.multiscalegenomics.eu/MuGVRE/) - The MuG Virtual Research Environment supports the expanding 3D/4D genomics community by developing tools to integrate and visualize genomics data from sequence to 3D/4D chromatin dynamics data
 
 # Cancer
 
 - Changes in 3D genome are associated with CNVs in multiple myeloma cells (RPMI-8226 trt- and tetraploid, U266 nearly diploid). The number of TADs increases by \~25%, they become smaller, \~20% switch compartment. ICE normalization better accounts for CNVs than HiCNorm. CNV breakpoints overlap with TAD boundaries. 40kb resolution, replicates. [Code](https://github.com/ChengLiLab/myeloma), Hi-C, WGS, RNA-seq data [GSE87585](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87585)
     - Wu, Pengze, Tingting Li, Ruifeng Li, Lumeng Jia, Ping Zhu, Yifang Liu, Qing Chen, Daiwei Tang, Yuezhou Yu, and Cheng Li. “[3D Genome of Multiple Myeloma Reveals Spatial Genome Disorganization Associated with Copy Number Variations](https://doi.org/10.1038/s41467-017-01793-w).” Nature Communications 8, no. 1 (December 2017)
 
-- BRCA gene targets regulated by SNPs - Capture-C of chromatin interactions centered on causal variants and promoters of causal genes (Variant- and Promoter Capture Hi-C) in six human mammary epithelial (B80T5, MCF10A) and breast cancer (MCF7, T47D, MDAMB231, Hs578T) cell lines. HindIII fragments, CHiCAGO and Peaky for significant interaction calling. PCA on interactions separates cell types, significant interactions enriched in epigenomic elements. 651 target genes at 139 independent breast cancer risk signals. Table 1 - top priority target genes. [HiCUP-processed capture Hi-C data (hg19)](https://osf.io/2cnw7/), [code](https://github.com/jmbeesley/Beesley_GenomeBiol2019), [Supplementary tables](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1877-y#Sec35), Tables S11 - 651 target genes,
-    - Beesley, Jonathan, Haran Sivakumaran, Mahdi Moradi Marjaneh, Luize G. Lima, Kristine M. Hillman, Susanne Kaufmann, Natasha Tuano, et al. “[Chromatin Interactome Mapping at 139 Independent Breast Cancer Risk Signals](https://doi.org/10.1186/s13059-019-1877-y).” Genome Biology 21, no. 1 (December 2020)
-
 - Curtaxins drugs affect 3D genome by DNA intercalation but without inducing DNA damage, compromise enhancer-promoter interactions, suppress oncogene expression, including MYC family genes, downregulates survival genes, partially disrupt TAD borders, decreases short-range interactions, the level of spatial segregation of the A/B compartments, depletes CTCF but not other factors. Hi-C in HT1080 fibrosarcoma cells. Data: Hi-C and CTCF ChIP-seq in duplicates [GSE122463](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122463), gene expression in MM1.S and HeLa S3 cells [GSE117611](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117611), H3K27ac [GSE117409](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117409), nascent RNA transcription [GSE107633](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE107633)
     - Kantidze, Omar L., Artem V. Luzhin, Ekaterina V. Nizovtseva, Alfiya Safina, Maria E. Valieva, Arkadiy K. Golov, Artem K. Velichko, et al. “[The Anti-Cancer Drugs Curaxins Target Spatial Genome Organization](https://doi.org/10.1038/s41467-019-09500-7).” Nature Communications 10, no. 1 (December 2019). 
 
-- 3D genomics of glioblastoma. Replicate samples from three patients. Sub-5kb-resolution Hi-C data, integration with ChIP- and RNA-seq. Data: Six Hi-C replicates, [EGAS00001003493](https://ega-archive.org/studies/EGAS00001003493), ChIP-seq [GSE121601](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121601), RNA-seq data [EGAS00001003700](https://www.ebi.ac.uk/ega/studies/EGAS00001003700). [Processed data](https://wangftp.wustl.edu/hubs/johnston_gallo/)
+- 3D genomics of glioblastoma. Replicate samples from three patients. Sub-5kb-resolution Hi-C data, integration with ChIP- and RNA-seq. Data: Six Hi-C replicates, [EGAS00001003493](https://ega-archive.org/studies/EGAS00001003493), ChIP-seq [GSE121601](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121601), RNA-seq data [EGAS00001003700](https://www.ebi.ac.uk/ega/studies/EGAS00001003700). [Processed data](https://wangftp.wustl.edu/hubs/johnston_gallo/)
     - Johnston, Michael J., Ana Nikolic, Nicoletta Ninkovic, Paul Guilhamon, Florence M.G. Cavalli, Steven Seaman, Franz J. Zemp, et al. “[High-Resolution Structural Genomics Reveals New Therapeutic Vulnerabilities in Glioblastoma](https://doi.org/10.1101/gr.246520.118).” Genome Research 29, no. 8 (August 2019) 
+
+- Ten non-replicated Hi-C datasets. Two human lymphoblastoid cell lines with known chromosomal translocations (FY1199 and DD1618), transformed mouse cell line (EKLF), six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86), a normal human cell line control (GM07017). [GSE81879](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879)
+- Harewood, Louise, Kamal Kishore, Matthew D. Eldridge, Steven Wingett, Danita Pearson, Stefan Schoenfelder, V. Peter Collins, and Peter Fraser. “[Hi-C as a Tool for Precise Detection and Characterisation of Chromosomal Rearrangements and Copy Number Variation in Human Tumours](https://doi.org/10.1186/s13059-017-1253-8).” Genome Biology 18, no. 1 (December 2017). 
+
+- Prostate cancer, normal. RWPE1 prostate epithelial cells transfected with GFP or ERG oncogene. Two biological and up to four technical replicates. [GSE37752](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37752)
+    - Rickman, David S., T. David Soong, Benjamin Moss, Juan Miguel Mosquera, Jan Dlabal, Stéphane Terry, Theresa Y. MacDonald, et al. “[Oncogene-Mediated Alterations in Chromatin Conformation](https://doi.org/10.1073/pnas.1112570109).” Proceedings of the National Academy of Sciences of the United States of America 109, no. 23 (June 5, 2012)
+
+- Taberlay, Phillippa C., Joanna Achinger-Kawecka, Aaron T. L. Lun, Fabian A. Buske, Kenneth Sabir, Cathryn M. Gould, Elena Zotenko, et al. “[Three-Dimensional Disorganization of the Cancer Genome Occurs Coincident with Long-Range Genetic and Epigenetic Alterations](https://doi.org/10.1101/gr.201517.115).” Genome Research 26, no. 6 (June 2016)
+- Cancer, normal Hi-C. Prostate epithelial cells, PC3, LNCaP. Two-three replicates. [GSE73785](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73785)
+
+- Haplotype-resolved Hi-C of GM12878, integrated with RNA-seq and Bru-seq (nascent mRNA). Investigation of Monoallelic expression (MAE) and Allele-Biased expression (ABE). [GEO GSE159813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159813)
+    - Lindsly, Stephen, Wenlong Jia, Haiming Chen, Sijia Liu, Scott Ronquist, Can Chen, Xingzhao Wen, et al. “[Functional Organization of the Maternal and Paternal Human 4D Nucleome](https://doi.org/10.1101/2020.03.15.992164),” bioRxiv, June 17, 2021.
+
+## BRCA
+
+- BRCA gene targets regulated by SNPs - Capture-C of chromatin interactions centered on causal variants and promoters of causal genes (Variant- and Promoter Capture Hi-C) in six human mammary epithelial (B80T5, MCF10A) and breast cancer (MCF7, T47D, MDAMB231, Hs578T) cell lines. HindIII fragments, CHiCAGO and Peaky for significant interaction calling. PCA on interactions separates cell types, significant interactions enriched in epigenomic elements. 651 target genes at 139 independent breast cancer risk signals. Table 1 - top priority target genes. [HiCUP-processed capture Hi-C data (hg19)](https://osf.io/2cnw7/), [code](https://github.com/jmbeesley/Beesley_GenomeBiol2019), [Supplementary tables](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1877-y#Sec35), Tables S11 - 651 target genes. <details>
+    <summary>Paper</summary>
+    Beesley, Jonathan, Haran Sivakumaran, Mahdi Moradi Marjaneh, Luize G. Lima, Kristine M. Hillman, Susanne Kaufmann, Natasha Tuano, et al. “Chromatin Interactome Mapping at 139 Independent Breast Cancer Risk Signals.” Genome Biology 21, no. 1 (December 2020) https://doi.org/10.1186/s13059-019-1877-y
+</details>
 
 - Capture Hi-C (CHi-C) to annotate 63 breast cancer risk loci. 110 target genes at 33 loci, supported bu other evidence (eQTLs, disease-specific survival). Two ER+ breast cancer cell lines (T-47D, ZR-75-1), two ER− breast cancer cell lines (BT-20, MDA- MB-231), one “normal” breast epithelial cell line (Bre80-Q-TERT (Bre80)) and a non-breast lymphoblastoid cell line (GM06990). Approx 40% of interaction peaks are present in multiple cell lines. More interactions within TADs. [WashU session with all CHi-C interaction peaks](https://bit.ly/CHiC-BC). **Table 2** Risk loci which formed interaction peaks directly (N = 33) or via an adjacent risk locus (N = 3) with 110 target genes (locus, SNP, gene targets, nearest gene). **Table 3** Nine CHi-C putative target genes that were statistically significant eQTLs (FDR adjusted P < 0.1) (locus, SNP, gene, p-values in all, ER+/- cancers). **Table 4** Six CHi-C putative target genes for which there was orthogonal support for at least two additional data sources. [PRJEB23968](https://www.ebi.ac.uk/ena/browser/view/PRJEB23968?show=reads) - FASTQ files. <details>
     <summary>Supplementary material</summary>
@@ -158,15 +174,6 @@ The MuG Virtual Research Environment supports the expanding 3D/4D genomics commu
     Baxter, Joseph S., Olivia C. Leavy, Nicola H. Dryden, Sarah Maguire, Nichola Johnson, Vita Fedele, Nikiana Simigdala, et al. “Capture Hi-C Identifies Putative Target Genes at 33 Breast Cancer Risk Loci.” Nature Communications 9, no. 1 (December 2018): 1028. https://doi.org/10.1038/s41467-018-03411-9
 </details>
 
-- Ten non-replicated Hi-C datasets. Two human lymphoblastoid cell lines with known chromosomal translocations (FY1199 and DD1618), transformed mouse cell line (EKLF), six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86), a normal human cell line control (GM07017). [GSE81879](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879)
-- Harewood, Louise, Kamal Kishore, Matthew D. Eldridge, Steven Wingett, Danita Pearson, Stefan Schoenfelder, V. Peter Collins, and Peter Fraser. “[Hi-C as a Tool for Precise Detection and Characterisation of Chromosomal Rearrangements and Copy Number Variation in Human Tumours](https://doi.org/10.1186/s13059-017-1253-8).” Genome Biology 18, no. 1 (December 2017). 
-
-- Prostate cancer, normal. RWPE1 prostate epithelial cells transfected with GFP or ERG oncogene. Two biological and up to four technical replicates. [GSE37752](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37752)
-    - Rickman, David S., T. David Soong, Benjamin Moss, Juan Miguel Mosquera, Jan Dlabal, Stéphane Terry, Theresa Y. MacDonald, et al. “[Oncogene-Mediated Alterations in Chromatin Conformation](https://doi.org/10.1073/pnas.1112570109).” Proceedings of the National Academy of Sciences of the United States of America 109, no. 23 (June 5, 2012)
-
-- Taberlay, Phillippa C., Joanna Achinger-Kawecka, Aaron T. L. Lun, Fabian A. Buske, Kenneth Sabir, Cathryn M. Gould, Elena Zotenko, et al. “[Three-Dimensional Disorganization of the Cancer Genome Occurs Coincident with Long-Range Genetic and Epigenetic Alterations](https://doi.org/10.1101/gr.201517.115).” Genome Research 26, no. 6 (June 2016)
-- Cancer, normal Hi-C. Prostate epithelial cells, PC3, LNCaP. Two-three replicates. [GSE73785](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73785)
-
 - Breast cancer. Epithelial (MCF-10A) and breast cancer (MCF-7) cells. Tumor vs. normal comparison, replicate comparison. Two replicates for each. [GSE66733](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66733). The data was reanalyzed in Fritz, Andrew J., Prachi N. Ghule, Joseph R. Boyd, Coralee E. Tye, Natalie A. Page, Deli Hong, David J. Shirley, et al. “[Intranuclear and Higher-Order Chromatin Organization of the Major Histone Gene Cluster in Breast Cancer](https://doi.org/10.1002/jcp.25996).” Journal of Cellular Physiology 233, no. 2 (February 2018) [GSE98552](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98552)
     - Barutcu AR, Lajoie BR, McCord RP, Tye CE et al. [Chromatin interaction analysis reveals changes in small chromosome and telomere clustering between epithelial and breast cancer cells](https://doi.org/10.1186/s13059-015-0768-0). Genome Biol 2015 Sep 28;16:214. PMID: 26415882. 
 
@@ -176,8 +183,6 @@ The MuG Virtual Research Environment supports the expanding 3D/4D genomics commu
 - Breast cancer. MCF-7 cell line. 3D response to estrogen, time course (0, 0.5h, 1h, 4h, 24h), replicate comparison. [GSE51687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51687)
     - Tordini, Fabio, Marco Aldinucci, Luciano Milanesi, Pietro Liò, and Ivan Merelli. “[The Genome Conformation As an Integrator of Multi-Omic Data: The Example of Damage Spreading in Cancer](https://doi.org/10.3389/fgene.2016.00194).” Frontiers in Genetics 7 (November 15, 2016). 
 
-- Haplotype-resolved Hi-C of GM12878, integrated with RNA-seq and Bru-seq (nascent mRNA). Investigation of Monoallelic expression (MAE) and Allele-Biased expression (ABE). [GEO GSE159813](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159813)
-    - Lindsly, Stephen, Wenlong Jia, Haiming Chen, Sijia Liu, Scott Ronquist, Can Chen, Xingzhao Wen, et al. “[Functional Organization of the Maternal and Paternal Human 4D Nucleome](https://doi.org/10.1101/2020.03.15.992164),” bioRxiv, June 17, 2021.
 
 
 # Tissue-specific

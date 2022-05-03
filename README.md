@@ -224,6 +224,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 ## Non-human data
 
+- Erythrocytes 3D genome organization in ten species at the last nucleated stages of maturation (newly generated mouse erythroblasts data and previously generated public blood Hi-C data from other organisms). Lack loops and TADs, strong second diagonal pattern. [Raw data at SRA](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA666472/). <details>
+    <summary>Paper</summary>
+    Ryzhkova, Anastasia, Alena Taskina, Anna Khabarova, Veniamin Fishman, and Nariman Battulin. “Erythrocytes 3D Genome Organization in Vertebrates.” Scientific Reports 11, no. 1 (December 2021): 4414. https://doi.org/10.1038/s41598-021-83903-9.
+</details>
+
 - RNA-seq, ATAC-seq, ChIP-seq, whole genome methylation (30X), Hi-C in 11 adult and two embryonic tissues on zebrafish. Comparison with human and mouse regulatory elements. Enrichment of evolutionary breakpoints at TAD boundaries, H3K4me3 and CCTF signal.De novo chr4 assembly (sex chromosome). scATAC-seq on zebrafish brain - 25 cell types. [GEO GSE134055](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134055), [Tweet](https://twitter.com/yuefeng_1/status/1331664006881439744?s=20)
     - Yang, Hongbo, Yu Luan, Tingting Liu, Hyung Joo Lee, Li Fang, Yanli Wang, Xiaotao Wang, et al. “[A Map of Cis-Regulatory Elements and 3D Genome Structures in Zebrafish](https://doi.org/10.1038/s41586-020-2962-9).” Nature, November 25, 2020. 
 

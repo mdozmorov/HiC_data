@@ -247,6 +247,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
     Ghavi-Helm, Yad, Aleksander Jankowski, Sascha Meiers, Rebecca R. Viales, Jan O. Korbel, and Eileen E. M. Furlong. “[Highly Rearranged Chromosomes Reveal Uncoupling between Genome Topology and Gene Expression](https://doi.org/10.1038/s41588-019-0462-3).” Nature Genetics, July 15, 2019. 
 </details>
 
+- Global organization of the B cell genome throughout differentiation by the transcription factor Pax5. Mouse splenic CD4+ cells, B cells at various differentiation stages, granulocytes. diffHiC, TADbit, directionality index. Hi-C and RNA-seq data on GEO [GSE99163](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99163). <details>
+    <summary>Paper</summary>
+    Johanson, Timothy M. “Transcription-Factor-Mediated Supervision of Global Genome Architecture Maintains B Cell Identity.” Nature Immunology 19 (2018): 14. https://doi.org/10.1038/s41590-018-0234-8
+</details>
+
 - TADs in Drosophila, Hi-C and RNA-seq in four cell lines of various origin. dCTCF, SMC3, and Su(Hw) are weakly enriched at TAD boundaries. Transcription and active chromatin (H3K27ac, H3K4me1, H3K4me3, H3K36me3, H4K16ac) are associated with TAD boundaries. Also, BEAF-32 and CP190. Hierarchical TADs. Housekeeping genes tend to be near TAD boundaries and in inter-TAD regions. TAD boundary prediction using regression, modeling to associate TADs with bands, investigation of the hierarchy. Heavy use of the Armatus TAD caller. RNA-seq and replicate Hi-C data, high correlation, merged into 20kb resolution.  [GEO GSE69013](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69013)
     - Ulianov, Sergey V., Ekaterina E. Khrameeva, Alexey A. Gavrilov, Ilya M. Flyamer, Pavel Kos, Elena A. Mikhaleva, Aleksey A. Penin, et al. “[Active Chromatin and Transcription Play a Key Role in Chromosome Partitioning into Topologically Associating Domains](https://doi.org/10.1101/gr.196006.115).” Genome Research 26, no. 1 (January 2016)
 

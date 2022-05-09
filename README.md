@@ -153,6 +153,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## BRCA
 
+- Comparative characterization of 3D genomics in TNBC. Cell lines (HMEC as normal and 5 BRCA subtypes, by the order of aggressiveness: T47D, ZR7530, HCC1954, HCC70, BT549). TNBC shows most dramatic changes, partially conserved across TNBC cell lines and TNBC tissues. TADs (CaTCH), loops (HiCCUPS), compartment (PC1) analyses. Local interactions are lost, "normal" TAD interactions weakened but TNBC TADs strenghtened; those changes are associated with CTCF loss/gain. 3В changes are associated with gene expression changes. Hi-C (replicates), ChIP-seq (CTCF, H3K27ac), RNA-seq, and ATAC-seq data are at [GSE167154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167150). <details>
+    <summary>Paper</summary>
+    Kim, Taemook, Sungwook Han, Yujin Chun, Hyeokjun Yang, Hyesung Min, Sook Young Jeon, Jang-il Kim, Hyeong-Gon Moon, and Daeyoup Lee. “Comparative Characterization of 3D Chromatin Organization in Triple-Negative Breast Cancers.” Experimental & Molecular Medicine, May 5, 2022. https://doi.org/10.1038/s12276-022-00768-2.
+</details>
+
 - BRCA gene targets regulated by SNPs - Capture-C of chromatin interactions centered on causal variants and promoters of causal genes (Variant- and Promoter Capture Hi-C) in six human mammary epithelial (B80T5, MCF10A) and breast cancer (MCF7, T47D, MDAMB231, Hs578T) cell lines. HindIII fragments, CHiCAGO and Peaky for significant interaction calling. PCA on interactions separates cell types, significant interactions enriched in epigenomic elements. 651 target genes at 139 independent breast cancer risk signals. Table 1 - top priority target genes. [HiCUP-processed capture Hi-C data (hg19)](https://osf.io/2cnw7/), [code](https://github.com/jmbeesley/Beesley_GenomeBiol2019), [Supplementary tables](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1877-y#Sec35), Tables S11 - 651 target genes. <details>
     <summary>Paper</summary>
     Beesley, Jonathan, Haran Sivakumaran, Mahdi Moradi Marjaneh, Luize G. Lima, Kristine M. Hillman, Susanne Kaufmann, Natasha Tuano, et al. “Chromatin Interactome Mapping at 139 Independent Breast Cancer Risk Signals.” Genome Biology 21, no. 1 (December 2020) https://doi.org/10.1186/s13059-019-1877-y

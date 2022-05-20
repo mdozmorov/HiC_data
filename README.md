@@ -202,7 +202,10 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 - Breast cancer. MCF-7 cell line. 3D response to estrogen, time course (0, 0.5h, 1h, 4h, 24h), replicate comparison. [GSE51687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51687)
     - Tordini, Fabio, Marco Aldinucci, Luciano Milanesi, Pietro Liò, and Ivan Merelli. “[The Genome Conformation As an Integrator of Multi-Omic Data: The Example of Damage Spreading in Cancer](https://doi.org/10.3389/fgene.2016.00194).” Frontiers in Genetics 7 (November 15, 2016). 
 
-
+- Hi-C timecourse (0, 0.5, 1, 4, 24 hours) of estrogen stimulation of BRCA cells, integration with RNA-seq and epigenetic marks. Analysis of 17q23 and 20q13 distant estrogen responsive elements (DEREs). Data at [GSE51687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51687). <details>
+    <summary>Paper</summary>
+    Mourad, Raphaël, Pei-Yin Hsu, Liran Juan, Changyu Shen, Prasad Koneru, Hai Lin, Yunlong Liu, Kenneth Nephew, Tim H. Huang, and Lang Li. “Estrogen Induces Global Reorganization of Chromatin Structure in Human Breast Cancer Cells.” Edited by Wei Xu. PLoS ONE 9, no. 12 (December 3, 2014): e113354. https://doi.org/10.1371/journal.pone.0113354.
+</details>
 
 # Tissue-specific
 

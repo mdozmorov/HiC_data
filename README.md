@@ -130,6 +130,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 # Cancer
 
+- 3D genomics of MYC overexpression. MYC overexpression leads to increased binding at active enhancers, amplified gene expression, increased chromatin interactions, promoter-enhancers, weakened TAD boundaries. U2OS osteosarcoma human cell line with tetracycline-inducible MYC, ChIP-seq (H3K27ac, superenhancer detection), RNA-seq (more downregulated genes, activation of ribosome, translation, motochondrial biogenesis), 4D-seq, and SIQHiC (Spike-in Quantitative Hi-C, mixing in crosslinked mouse 3T3 cells at a ratio 1:4). Replicate data at [GSE164777](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164777). <details>
+    <summary>Paper</summary>
+    See, Yi Xiang, Kaijing Chen, and Melissa J Fullwood. “MYC Overexpression Leads to Increased Chromatin Interactions at Superenhancers and MYC Binding Sites.” Genome Research, February 3, 2022, gr.276313.121. https://doi.org/10.1101/gr.276313.121.
+</details>
+
 - Changes in 3D genome are associated with CNVs in multiple myeloma cells (RPMI-8226 trt- and tetraploid, U266 nearly diploid). The number of TADs increases by \~25%, they become smaller, \~20% switch compartment. ICE normalization better accounts for CNVs than HiCNorm. CNV breakpoints overlap with TAD boundaries. 40kb resolution, replicates. [Code](https://github.com/ChengLiLab/myeloma), Hi-C, WGS, RNA-seq data [GSE87585](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87585)
     - Wu, Pengze, Tingting Li, Ruifeng Li, Lumeng Jia, Ping Zhu, Yifang Liu, Qing Chen, Daiwei Tang, Yuezhou Yu, and Cheng Li. “[3D Genome of Multiple Myeloma Reveals Spatial Genome Disorganization Associated with Copy Number Variations](https://doi.org/10.1038/s41467-017-01793-w).” Nature Communications 8, no. 1 (December 2017)
 
@@ -153,7 +158,7 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## BRCA
 
-- Comparative characterization of 3D genomics in TNBC. Cell lines (HMEC as normal and 5 BRCA subtypes, by the order of aggressiveness: T47D, ZR7530, HCC1954, HCC70, BT549). TNBC shows most dramatic changes, partially conserved across TNBC cell lines and TNBC tissues. TADs (CaTCH), loops (HiCCUPS), compartment (PC1) analyses. Local interactions are lost, "normal" TAD interactions weakened but TNBC TADs strenghtened; those changes are associated with CTCF loss/gain. 3В changes are associated with gene expression changes. Hi-C (replicates), ChIP-seq (CTCF, H3K27ac), RNA-seq, and ATAC-seq data are at [GSE167154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167150). <details>
+- Comparative characterization of 3D genomics in TNBC. Cell lines (HMEC as normal and 5 BRCA subtypes, by the order of aggressiveness: T47D, ZR7530, HCC1954, HCC70, BT549). TNBC shows most dramatic changes, partially conserved across TNBC cell lines and TNBC tissues. TADs (CaTCH), loops (HiCCUPS), compartment (PC1) analyses. Local interactions are lost, "normal" TAD interactions weakened but TNBC TADs strenghtened; those changes are associated with CTCF loss/gain. 3D changes are associated with gene expression changes. Hi-C (replicates), ChIP-seq (CTCF, H3K27ac), RNA-seq, and ATAC-seq data are at [GSE167154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167150). <details>
     <summary>Paper</summary>
     Kim, Taemook, Sungwook Han, Yujin Chun, Hyeokjun Yang, Hyesung Min, Sook Young Jeon, Jang-il Kim, Hyeong-Gon Moon, and Daeyoup Lee. “Comparative Characterization of 3D Chromatin Organization in Triple-Negative Breast Cancers.” Experimental & Molecular Medicine, May 5, 2022. https://doi.org/10.1038/s12276-022-00768-2.
 </details>

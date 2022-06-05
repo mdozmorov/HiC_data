@@ -262,6 +262,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
     Ryzhkova, Anastasia, Alena Taskina, Anna Khabarova, Veniamin Fishman, and Nariman Battulin. “Erythrocytes 3D Genome Organization in Vertebrates.” Scientific Reports 11, no. 1 (December 2021): 4414. https://doi.org/10.1038/s41598-021-83903-9.
 </details>
 
+- Investigation of the mechanisms of TAD boundaries in Drosophila. Notch gene locus having two TADs, the role of genetic sequences bound by architectural proteins (APs, CP190, BEAF-32, M1BP, SuHw, CTCF). Deletion (CRISPR-Cas9) of domains lead to fusion of TADs, loss of APs, disruption of transcription. In nucleus Hi-C (4-cutter MboI) in embryonic cell line S2R+ in triplicates [GSE136137](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136137). References to many Drosophila public datasets in [Methods](https://www.nature.com/articles/s41467-020-14651-z#Sec9) section. <details>
+    <summary>Paper</summary>
+    Arzate-Mejía, Rodrigo G., Angel Josué Cerecedo-Castillo, Georgina Guerrero, Mayra Furlan-Magaril, and Félix Recillas-Targa. “In Situ Dissection of Domain Boundaries Affect Genome Topology and Gene Transcription in Drosophila.” Nature Communications 11, no. 1 (December 2020): 894. https://doi.org/10.1038/s41467-020-14651-z.
+</details>
+
 - RNA-seq, ATAC-seq, ChIP-seq, whole genome methylation (30X), Hi-C in 11 adult and two embryonic tissues on zebrafish. Comparison with human and mouse regulatory elements. Enrichment of evolutionary breakpoints at TAD boundaries, H3K4me3 and CCTF signal.De novo chr4 assembly (sex chromosome). scATAC-seq on zebrafish brain - 25 cell types. [GEO GSE134055](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134055), [Tweet](https://twitter.com/yuefeng_1/status/1331664006881439744?s=20)
     - Yang, Hongbo, Yu Luan, Tingting Liu, Hyung Joo Lee, Li Fang, Yanli Wang, Xiaotao Wang, et al. “[A Map of Cis-Regulatory Elements and 3D Genome Structures in Zebrafish](https://doi.org/10.1038/s41586-020-2962-9).” Nature, November 25, 2020. 
 

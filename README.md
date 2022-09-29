@@ -9,11 +9,11 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 
 
 - [Large collections](#large-collections)
+  - [4D Nucleome](#4d-nucleome)
   - [Lieberman-Aiden lab](#lieberman-aiden-lab)
   - [Leonid Mirny lab](#leonid-mirny-lab)
   - [Bing Ren lab](#bing-ren-lab)
   - [Feng Yue lab](#feng-yue-lab)
-  - [4D Nucleome](#4d-nucleome)
 - [Cancer](#cancer)
   - [BRCA](#brca)
 - [Tissue-specific](#tissue-specific)
@@ -47,6 +47,21 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 - [4DGenome](https://4dgenome.research.chop.edu/) - 3D significant interactions, from different literature sources
     - Teng, Li, Bing He, Jiahui Wang, and Kai Tan. “[4DGenome: A Comprehensive Database of Chromatin Interactions](https://doi.org/10.1093/bioinformatics/btv158).” Bioinformatics (Oxford, England) 31, no. 15 (August 1, 2015)
 
+
+## 4D Nucleome 
+
+- [4D Nucleome Data Portal](https://data.4dnucleome.org/) - 3D genomics and microscopy data, uniformly processed, integrative visualization in [HiGlass](https://higlass.io/), comparative functionality. Browse by type (sequencing, microscopy) or publication. Data are in [three tiers](https://4dnucleome.org/cell-lines.html): Tier 1 (H1-ESC, GM12878, IMR90, HFF-hTERT (clone 6), and WTC-11), Tier 2 and untiered. Overview of first and second phases of the 4DN project. Other repositories that host Hi-C and similar datasets include the ENCODE portal, NCBI's GEO and EMBL-EBI’s ArrayExpress. [4D Nucleome Browser](https://github.com/mdozmorov/HiC_tools#nucleomebrowser) for integrative and multimodal data navigation.
+    - [Table 1](https://www.nature.com/articles/s41467-022-29697-4/tables/1) - Genomic assay types in the 4D Nucleome Data Portal. Chromatin conformation data (In situ, dilution Hi-C, Micro-C, DNase Hi-C, Hi-C 3.0, Capture Hi-C, TCC, single-cell variants, SPRITE, GAM), and related sequqncing data (ChIA-PET, ChIA-Drop, PLAC-seq, ChIP-seq, CUT&RUN, Repli-seq, MARGI (RNA-chromatin interactions), others). 
+    - [High-resolution Hi-C datasets](https://data.4dnucleome.org/resources/data-collections/high-resolution-hic-datasets), over 1 billion read pairs. [cooltools](https://github.com/open2c/cooltools)processing, .cool and .mcool formats, A/B compartments and TAD boundaries (insulation score) detected using [domain calling pipelines](https://data.4dnucleome.org/resources/data-analysis/insulation_compartment_scores). 
+    - [Microscopy datasets](https://data.4dnucleome.org/microscopy-data-overview) - standard FISH (DNA or RNA), multi-loci FISH, high-throughput FISH, dynamic single particle tracking, ChromEMT, OptoDroplet. 
+    - [Table 2](https://www.nature.com/articles/s41467-022-29697-4/tables/2) - All 4D Nucleome analysis pipelines, in CWL, WDL, available on Docker Hub. Alignment with BWA MEM with the -SP5M option. [PairsQC](https://github.com/4dn-dcic/pairsqc) - QC report for Hi-C pairs files. [Hi-C processing pipeline](https://data.4dnucleome.org/resources/data-analysis/hi_c-processing-pipeline). <details>
+    - [4DN Visualization Workspace](https://data.4dnucleome.org/tools/visualization)
+        <summary>Paper</summary>
+         Reiff, S.B., Schroeder, A.J., Kırlı, K. et al. The 4D Nucleome Data Portal as a resource for searching and visualizing curated nucleomics data. Nat Commun 13, 2365 (02 May 2022). https://doi.org/10.1038/s41467-022-29697-4
+</details>
+
+
+- [MuGVRE](https://www.multiscalegenomics.eu/MuGVRE/) - The MuG Virtual Research Environment supports the expanding 3D/4D genomics community by developing tools to integrate and visualize genomics data from sequence to 3D/4D chromatin dynamics data
 
 ## Lieberman-Aiden lab
 
@@ -112,21 +127,6 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
     - [GEO GSE148079](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148079)
     - [GitHub](https://github.com/Qixuan771/Source-code-for-bladder-cancer-project)
 
-
-## 4D Nucleome 
-
-- [4D Nucleome Data Portal](https://data.4dnucleome.org/) - chromatin conformation-related datasets, uniformly prodessed, integrated with the HiGlass genome browser, comparison possible. Overview of first and second phases of the 4DN project. Other repositories that host Hi-C and similar datasets include the ENCODE portal, NCBI's GEO and EMBL-EBI’s ArrayExpress. 
-    - Reiff, Sarah B, Andrew J Schroeder, Koray Kirli, Andrea Cosolo, Clara Bakker, Luisa Mercado, Soohyun B Lee, et al. “[The 4D Nucleome Data Portal: A Resource for Searching and Visualizing Curated Nucleomics Data](https://doi.org/10.1101/2021.10.14.464435).” Preprint. Genomics, October 15, 2021. 
-    - Genomics datasets - [Hi-C](https://data.4dnucleome.org/resources/data-collections/high-resolution-hic-datasets) (in situ, dilution), Micro-C, DNase Hi-C Hi-C 3.0, Capture Hi-C, TCC, single-cell variants, SPRITE, GAM. ChIA-PET, ChIA-Drop, PLAC-seq, ChIP-seq, CUT&RUN, Repli-seq, others. .cool and .mcool formats, A/B compartments and TAD boundaries (insulation score) are called using cooltools. Data are in [three tiers](https://4dnucleome.org/cell-lines.html): Tier 1 (H1-ESC, GM12878, IMR90, HFF-hTERT (clone 6), and WTC-11), Tier 2 and untiered. 
-    - [Microscopy datasets](https://data.4dnucleome.org/microscopy-data-overview) - standard FISH (DNA or RNA), multi-loci FISH, high-throughput FISH, dynamic single particle tracking. 
-    - [Hi-C Processing Pipeline](https://data.4dnucleome.org/resources/data-analysis/hi_c-processing-pipeline) (BWA MEM with the -SP5M option)
-    - [Domain Calling Pipelines](https://data.4dnucleome.org/resources/data-analysis/insulation_compartment_scores)
-    - [4DN Visualization Workspace](https://data.4dnucleome.org/tools/visualization)
-    - [4DN Software](https://www.4dnucleome.org/software.html) - alphabetical list of Hi-C software.
-
-- [4dnucleome.eu](https://www.4dnucleome.eu/) - 4DNucleome Initiative in Europe
-
-- [MuGVRE](https://www.multiscalegenomics.eu/MuGVRE/) - The MuG Virtual Research Environment supports the expanding 3D/4D genomics community by developing tools to integrate and visualize genomics data from sequence to 3D/4D chromatin dynamics data
 
 # Cancer
 

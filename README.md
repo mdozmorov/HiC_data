@@ -250,6 +250,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 ## Non-human data
 
+- Evolutionary 3D genomics, principles of chromosome folding in mammals (Eutherians (aardvark, elephant, mouse, human), marsupials (chicken, platypus, wallaby, tasmanian devil)). Reshuffling can influence high-order chromatin organization. Eutherian genome organization is associated with higher number of short loops (Hi-C), high CTCF density (ChIP-seq), chromosomal territories. Vice versa for marsupials, including chromosomes in the Rabl configuration. A/B compartments, TADs have similar properties. Analysis of synthenic region rearrangements, reconstructing evolutionary history. Juicer, TADbit, FAN-C, Newly generated data for African Elephant, Aardvark, Tasmanian Devil, Tammar Wallaby (Hi-C, CTCT, H3K4me3 ChIP-seq, RNA-seq) at [GSE206075](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206075). <details>
+    <summary>Paper</summary>
+    Álvarez-González, Lucía, Cristina Arias-Sardá, Laia Montes-Espuña, Laia Marín-Gual, Covadonga Vara, Nicholas C. Lister, Yasmina Cuartero, et al. “Principles of 3D Chromosome Folding and Evolutionary Genome Reshuffling in Mammals.” Cell Reports 41, no. 12 (December 2022): 111839. https://doi.org/10.1016/j.celrep.2022.111839.
+</details>
+
 - Erythrocytes 3D genome organization in ten species at the last nucleated stages of maturation (newly generated mouse erythroblasts data and previously generated public blood Hi-C data from other organisms). Lack loops and TADs, strong second diagonal pattern. [Raw data at SRA](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA666472/). <details>
     <summary>Paper</summary>
     Ryzhkova, Anastasia, Alena Taskina, Anna Khabarova, Veniamin Fishman, and Nariman Battulin. “Erythrocytes 3D Genome Organization in Vertebrates.” Scientific Reports 11, no. 1 (December 2021): 4414. https://doi.org/10.1038/s41598-021-83903-9.

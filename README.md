@@ -250,6 +250,11 @@ Search query for any type of Hi-C data, e.g., [human brain Hi-C](https://www.enc
 
 ## Non-human data
 
+- The effect of somatic chromosome pairing on 3D genome organization. Drosophila, in-situ Hi-C data, HiC-Pro, Juicer processing. Investigation of the effect of paiting on gene loops mediated by RNAPII and Polycomb-mediated loops. Maintenance of A/B compartments is independent from looping. Anti-pairing CAP-H2-condensin II complex interacts with the zinc-finger protein Z4, under hyperosmotic cellular stress. Informative introduction about the 3D Drosophila genome. ChIP-seq, Hi-C, and ATAC-seq data (dm6 assembly) on GEO [GSE213553](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213553). Other data in the "Data availability" section. <details>
+    <summary>Paper</summary>
+    Puerto, Marta, Mamta Shukla, Paula Bujosa, Juan Perez-Roldan, Srividya Tamirisa, Carme Solé, Eulàlia de Nadal, Francesc Posas, Fernando Azorin, and M. Jordan Rowley. “Somatic Chromosome Pairing Has a Determinant Impact on 3D Chromatin Organization.” Preprint. Genomics, March 30, 2023. https://doi.org/10.1101/2023.03.29.534693.
+</details>
+
 - Evolutionary 3D genomics, principles of chromosome folding in mammals (Eutherians (aardvark, elephant, mouse, human), marsupials (chicken, platypus, wallaby, tasmanian devil)). Reshuffling can influence high-order chromatin organization. Eutherian genome organization is associated with higher number of short loops (Hi-C), high CTCF density (ChIP-seq), chromosomal territories. Vice versa for marsupials, including chromosomes in the Rabl configuration. A/B compartments, TADs have similar properties. Analysis of synthenic region rearrangements, reconstructing evolutionary history. Juicer, TADbit, FAN-C, Newly generated data for African Elephant, Aardvark, Tasmanian Devil, Tammar Wallaby (Hi-C, CTCT, H3K4me3 ChIP-seq, RNA-seq) at [GSE206075](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206075). <details>
     <summary>Paper</summary>
     Álvarez-González, Lucía, Cristina Arias-Sardá, Laia Montes-Espuña, Laia Marín-Gual, Covadonga Vara, Nicholas C. Lister, Yasmina Cuartero, et al. “Principles of 3D Chromosome Folding and Evolutionary Genome Reshuffling in Mammals.” Cell Reports 41, no. 12 (December 2022): 111839. https://doi.org/10.1016/j.celrep.2022.111839.

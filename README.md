@@ -155,6 +155,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## BRCA
 
+- Nucleosome reorganization in breast cancer vs. normal tissues (MNase-seq, MNase-H3-seq), along with cfDNA from blood. Four patients. Data processing with [cfDNAtools](https://github.com/TeifLab/cfDNAtools), [NucTools](https://homeveg.github.io/nuctools/). Nucleosomes gained in BRCA are strongly enriched (20X) in CpG islands, in promoters of DNA-binding proteins, cancer pathways. Average distance between nucleosomes (Nucleosome repeat length NRL) decreases (5-10bp). These effects are associated with differential DNA methylation and binding of linker histone variants H1.4 and H1X. <details>
+    <summary>Paper</summary>
+    Jacob, Divya R., Wilfried M. Guiblet, Hulkar Mamayusupova, Mariya Shtumpf, Luminita Ruje, Isabella Ciuta, Svetlana Gretton, et al. “Nucleosome Reorganisation in Breast Cancer Tissues.” Preprint. Genomics, April 18, 2023. https://doi.org/10.1101/2023.04.17.537031.
+</details>
+
 - Comparative characterization of 3D genomics in TNBC. Cell lines (HMEC as normal and 5 BRCA subtypes, by the order of aggressiveness: T47D, ZR7530, HCC1954, HCC70, BT549). TNBC shows most dramatic changes, partially conserved across TNBC cell lines and TNBC tissues. TADs (CaTCH), loops (HiCCUPS), compartment (PC1) analyses. Local interactions are lost, "normal" TAD interactions weakened but TNBC TADs strenghtened; those changes are associated with CTCF loss/gain. 3D changes are associated with gene expression changes. Hi-C (replicates), ChIP-seq (CTCF, H3K27ac), RNA-seq, and ATAC-seq data are at [GSE167154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167150). <details>
     <summary>Paper</summary>
     Kim, Taemook, Sungwook Han, Yujin Chun, Hyeokjun Yang, Hyesung Min, Sook Young Jeon, Jang-il Kim, Hyeong-Gon Moon, and Daeyoup Lee. “Comparative Characterization of 3D Chromatin Organization in Triple-Negative Breast Cancers.” Experimental & Molecular Medicine, May 5, 2022. https://doi.org/10.1038/s12276-022-00768-2.

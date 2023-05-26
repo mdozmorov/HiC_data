@@ -47,6 +47,10 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 - [4DGenome](https://4dgenome.research.chop.edu/) - 3D significant interactions, from different literature sources
     - Teng, Li, Bing He, Jiahui Wang, and Kai Tan. “[4DGenome: A Comprehensive Database of Chromatin Interactions](https://doi.org/10.1093/bioinformatics/btv158).” Bioinformatics (Oxford, England) 31, no. 15 (August 1, 2015)
 
+- A catalog of TADs, TAD boundaries (18,972 total, 2,293 novel, Arrowhead and Insulation score), and loops (21,838, HiCCUPS, cooltools call-dots) in human lymphoblastoma cell lines (LCL). Hi-C data on the 1000 genomes individuals (44 different individuals from five super populations), including data from the Human Genome Structural Variation Consortium (HGSVC) and 4DNucleome. The impact of SVs overlapping TAD boundaries on gene expression and splicing. Introduction about 3D genome rewiring events in disease. Juicer, FAN-C, cooltools. [GitHub](https://github.com/caragraduate/Hi-C-integrative-catalog). No data/supplementary until published. <details>
+    <summary>Paper</summary>
+    Li, Chong, Marc Jan Bonder, Sabriya Syed, Human Genome Structural Variation Consortium (HGSVC), HGSVC Functional Analysis Working Group, Michael C. Zody, Mark J.P. Chaisson, et al. “A Comprehensive Catalog of 3D Genome Organization in Diverse Human Genomes Facilitates Understanding of the Impact of Structural Variation on Chromatin Structure.” Preprint. Genomics, May 15, 2023. https://doi.org/10.1101/2023.05.15.540856.
+</details>
 
 ## 4D Nucleome 
 

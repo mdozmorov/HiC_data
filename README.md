@@ -131,6 +131,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 # Cancer
 
+- Doxorubicin effect on 3D Chromation (also, additional Top2 inhibitors, ICRF193). The human retinal pigment epithelial RPE-1 cells (WT and 18h post-treatment), Hi-C (Juicer, cooltools, TopDom), ChIP-seq (CTCF, RAD21, H3K27ac), RNA-seq. Reduction of local interactions at active promoters, increase in CTCF binding and redistribution of RAD21 around H3K27ac. Differential region analysis (10kb sliding window, log2 fold change, hg19 only) [Python script](https://keeper.mpdl.mpg.de/d/d6a1c0581af240d8bb9f/), no enrichment of differential Hi-C regions in differential genes, many differential Hi-C regions do not overlap differential CTCF, RAD21 redistributes around H3K27ac. Hi-C, ChIP-seq and RNA-seq data are at [GSE215325](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215325). <details>
+    <summary>Paper</summary>
+    Stefanova, Maria E., Elizabeth Ing-Simmons, Stefan Stefanov, Ilya Flyamer, Heathcliff Dorado Garcia, Robert Schöpflin, Anton G. Henssen, Juan M. Vaquerizas, and Stefan Mundlos. “Doxorubicin Changes the Spatial Organization of the Genome around Active Promoters.” Cells 12, no. 15 (August 4, 2023): 2001. https://doi.org/10.3390/cells12152001.
+</details>
+
 - 3D genomics of MYC overexpression. MYC overexpression leads to increased binding at active enhancers, amplified gene expression, increased chromatin interactions, promoter-enhancers, weakened TAD boundaries. U2OS osteosarcoma human cell line with tetracycline-inducible MYC, ChIP-seq (H3K27ac, superenhancer detection), RNA-seq (more downregulated genes, activation of ribosome, translation, motochondrial biogenesis), 4D-seq, and SIQHiC (Spike-in Quantitative Hi-C, mixing in crosslinked mouse 3T3 cells at a ratio 1:4). Replicate data at [GSE164777](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164777). <details>
     <summary>Paper</summary>
     See, Yi Xiang, Kaijing Chen, and Melissa J Fullwood. “MYC Overexpression Leads to Increased Chromatin Interactions at Superenhancers and MYC Binding Sites.” Genome Research, February 3, 2022, gr.276313.121. https://doi.org/10.1101/gr.276313.121.

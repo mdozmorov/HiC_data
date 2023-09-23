@@ -52,6 +52,11 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
     Li, Chong, Marc Jan Bonder, Sabriya Syed, Human Genome Structural Variation Consortium (HGSVC), HGSVC Functional Analysis Working Group, Michael C. Zody, Mark J.P. Chaisson, et al. “A Comprehensive Catalog of 3D Genome Organization in Diverse Human Genomes Facilitates Understanding of the Impact of Structural Variation on Chromatin Structure.” Preprint. Genomics, May 15, 2023. https://doi.org/10.1101/2023.05.15.540856.
 </details>
 
+- [TADKB](http://dna.cs.miami.edu/TADKB/) - TAD database for 11 cell types, human (GM12878, HMEC, NHEK, IMR90, KBM7, K562, and HUVEC) and mouse (CH12-LX, ES, NPC, and CN). Information about genes and lncRNAs in each TAD. 3D structures for each TAD, classification of TADs by structural similarity. Browsing by coordinate, family, across cell types, search  for gene. [Download](http://dna.cs.miami.edu/TADKB/) of TAD coordinates (hg19, space-separated). <details>
+    <summary>Paper</summary>
+    Liu, Tong, Jacob Porter, Chenguang Zhao, Hao Zhu, Nan Wang, Zheng Sun, Yin-Yuan Mo, and Zheng Wang. “TADKB: Family Classification and a Knowledge Base of Topologically Associating Domains.” BMC Genomics 20, no. 1 (December 2019): 217. https://doi.org/10.1186/s12864-019-5551-2.
+</details>
+
 ## 4D Nucleome 
 
 - [4D Nucleome Data Portal](https://data.4dnucleome.org/) - 3D genomics and microscopy data, uniformly processed, integrative visualization in [HiGlass](https://higlass.io/), comparative functionality. Browse by type (sequencing, microscopy) or publication. Data are in [three tiers](https://4dnucleome.org/cell-lines.html): Tier 1 (H1-ESC, GM12878, IMR90, HFF-hTERT (clone 6), and WTC-11), Tier 2 and untiered. Overview of first and second phases of the 4DN project. Other repositories that host Hi-C and similar datasets include the ENCODE portal, NCBI's GEO and EMBL-EBI’s ArrayExpress. [4D Nucleome Browser](https://github.com/mdozmorov/HiC_tools#nucleomebrowser) for integrative and multimodal data navigation.

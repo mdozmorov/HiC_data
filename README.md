@@ -36,6 +36,11 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 
 # Large collections
 
+- [HiChIPdb](http://health.tsinghua.edu.cn/hichipdb/) - database of H3K27ac HiChIP experiments, human. 200 high-throughput HiChIP samples across 108 cell types. Interactions annotated with regulatory genes and GWAS catalog SNPs. Uniform processing with HiC-Pro, hg19, loop calling with FitHiChIP and Hichipper. [Download](http://health.tsinghua.edu.cn/hichipdb/download.php) of subsets and all data. <details>
+    <summary>Paper</summary>
+    Zeng, Wanwen, Qiao Liu, Qijin Yin, Rui Jiang, and Wing Hung Wong. “HiChIPdb: A Comprehensive Database of HiChIP Regulatory Interactions.” Nucleic Acids Research, October 10, 2022, gkac859. https://doi.org/10.1093/nar/gkac859.
+</details>
+
 - [3DIV](http://kobic.kr/3div/download) - database of uniformly processed 315 Hi-C datasets, 80 human cell/tissue types. Bait-centric (SNP rsID, gene name, hg19 coordinates) visualization of long-range interactions in context of epigenomic (histone, enhancers) signals, numerical results. Custom BWA-MEM pipeline, Bias, distance effect removed. Coordinates of significant interactions, with annotations, are available for (FTP) download, http://kobic.kr/3div/download
     - Yang, Dongchan, Insu Jang, Jinhyuk Choi, Min-Seo Kim, Andrew J Lee, Hyunwoong Kim, Junghyun Eom, Dongsup Kim, Inkyung Jung, and Byungwook Lee. “[3DIV: A 3D-Genome Interaction Viewer and Database](https://doi.org/10.1093/nar/gkx1017).” Nucleic Acids Research 46, no. D1 (January 4, 2018)
 

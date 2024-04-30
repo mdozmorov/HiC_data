@@ -179,6 +179,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## BRCA
 
+- Hi-C profiling of 12 breast tissue samples - 2 normal, 5 ER+ tumors and 5 ER+ tamoxifen-treated tumors. Compartments are largely preserved, TADs and loops are heterogeneous. Very few common pathways associated with differential TADs/loops. Functional enrichment, survival analysis of genes lost and gained between different conditions. CA2 gene within the bicarbonate transport metabolism pathway as the driver of tamoxifen resistance, its inhibition (brinzolamide) impedes tumor growth and reverses chromatin looping. HiC-Pro for processing, dcHiC for A/B compartment analysis, TopDom for TAD calling, Group-, Individual-sample Specific TADs (GISTA) algorithm for TAD comparison (conserved, moderately- and significantly variable TADs), FitHiC2 for loops, HiNT-CNV for CNV detection. Python/R scripts on [GitHub](https://github.com/KunFang93/TumorSpecific3DChromatinDomain). <details>
+    <summary>Paper</summary>
+    Lavanya Choppavarapu, Kun Fang, Tianxiang Liu, and Victor X. Jin. “Hi-C Profiling in Tissues Reveals 3D Chromatin-Regulated Breast Tumor Heterogeneity and Tumor-Specific Looping-Mediated Biological Pathways.” bioRxiv, January 1, 2024, 2024.03.13.584872. https://doi.org/10.1101/2024.03.13.584872.
+</details>
+
 - Nucleosome reorganization in breast cancer vs. normal tissues (MNase-seq, MNase-H3-seq), along with cfDNA from blood. Four patients. Data processing with [cfDNAtools](https://github.com/TeifLab/cfDNAtools), [NucTools](https://homeveg.github.io/nuctools/). Nucleosomes gained in BRCA are strongly enriched (20X) in CpG islands, in promoters of DNA-binding proteins, cancer pathways. Average distance between nucleosomes (Nucleosome repeat length NRL) decreases (5-10bp). These effects are associated with differential DNA methylation and binding of linker histone variants H1.4 and H1X. <details>
     <summary>Paper</summary>
     Jacob, Divya R., Wilfried M. Guiblet, Hulkar Mamayusupova, Mariya Shtumpf, Luminita Ruje, Isabella Ciuta, Svetlana Gretton, et al. “Nucleosome Reorganisation in Breast Cancer Tissues.” Preprint. Genomics, April 18, 2023. https://doi.org/10.1101/2023.04.17.537031.

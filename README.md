@@ -23,7 +23,7 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
   - [Non-human data](#non-human-data)
 - [Differential Hi-C](#differential-hi-c)
 - [Timecourse Hi-C](#timecourse-hi-c)
-- [Promoter-capture Hi-C](#promoter-capture-hi-c)
+- [Capture Hi-C](#capture-hi-c)
 - [Integrative Hi-C](#integrative-hi-c)
 - [Single-cell Hi-C](#single-cell-hi-c)
 - [Micro-C](#micro-c)
@@ -394,7 +394,12 @@ a focus on the B cell lineage in mice. The authors investigate the role of the t
 
 - Ke, Yuwen, Yanan Xu, Xuepeng Chen, Songjie Feng, Zhenbo Liu, Yaoyu Sun, Xuelong Yao, et al. “[3D Chromatin Structures of Mature Gametes and Structural Reprogramming during Mammalian Embryogenesis](https://doi.org/10.1016/j.cell.2017.06.029).” Cell, (July 13, 2017) - 3D timecourse changes during mouse gametes (sperm and MII oocyte) and early embryos development, from zygotic (no TADs, many long-range interactions) to 2-, 4-, 8-cell, blastocyst and E7.5 mature embryos (TADs established after several rounds of DNA replication). A/B compartments associated with un/methylatied CpGs, respectively. PC1, directionality index, insulation score to define compartments and TADs, these metrics increase in magnitude/strength during maturation. Enrichment in CTCF, SMC1, H3K4me3, H3K27ac, H3K9ac, H3K4me1, depletion in H3K9me3, H3K36me3, H3K27me3. The compartment strength is weaker in maternal vs. paternal genomes. Covariance for each gene vs. boundary score across the timecourse. Relative TAD intensity changes. [Hi-C and RNA-seq data at different stages, some replicates](ttp://bigd.big.ac.cn/bioproject/browse/PRJCA000241)
 
-# Promoter-capture Hi-C
+# Capture Hi-C
+
+- [Loop Catalog](https://loopcatalog.lji.org/) - HiChIP loop calls for 1319 samples across 133 studies and 44 high-resolution Hi-C loop calls. Uniform processing with HiC-Pro, loops calles with the PeakInferHiChIP.sh utility function of FitHiChIP. Some samples have associated ChIP-seq data. Motif enrichment analysis, region interaction network analysis. Integrated GWAS variants from [CAUSALdb](http://www.mulinlab.org/causaldb/browse.html) (SNP-to-gene linking, SGL). WashU-like visualization. <details>
+    <summary>Paper</summary>
+    Reyna, Joaquin, Kyra Fetter, Romeo Ignacio, Cemil Can Ali Marandi, Nikhil Rao, Zichen Jiang, Daniela Salgado Figueroa, Sourya Bhattacharyya, and Ferhat Ay. “Loop Catalog: A Comprehensive HiChIP Database of Human and Mouse Samples.” bioRxiv, January 1, 2024, 2024.04.26.591349. https://doi.org/10.1101/2024.04.26.591349.
+</details>
 
 - SIPs, super-interactive promoters in five hematopoietic cell types (Erythrocyte, Macrophage/monophage, megakaryocyte, naive CD4 T-cells, Neutrophils). Reanalysis of promoter-capture Hi-C data from Javierre et al., “Lineage-Specific Genome Architecture Links Enhancers and Non-Coding Disease Variants to Target Gene Promoters.” study. CHiCAGO pipeline. Promoter-interacting regions (PIRs) interacting with SIPs are more enriched in cell type-specific ATAC-seq peaks, GWAS variants for relevant cell types. SIP-associated genes are higher expressed in relevant cells. Some SIPs are shared across cell lines. Super-SIPs.
     - [Additional File 1](https://www.biorxiv.org/content/biorxiv/early/2021/03/16/2021.03.15.435494/DC2/embed/media-2.xlsx?download=true) - Cell type-specific SIPs and genes.

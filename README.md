@@ -36,7 +36,7 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 
 # Large collections
 
-- [HiChIPdb](http://health.tsinghua.edu.cn/hichipdb/) - database of H3K27ac HiChIP experiments, human. 200 high-throughput HiChIP samples across 108 cell types. Interactions annotated with regulatory genes and GWAS catalog SNPs. Uniform processing with HiC-Pro, hg19, loop calling with FitHiChIP and Hichipper. [Download](http://health.tsinghua.edu.cn/hichipdb/download.php) of subsets and all data. <details>
+- [HiChIPdb](http://health.tsinghua.edu.cn/hichipdb/) - database of H3K27ac HiChIP experiments, human. 200 high-throughput HiChIP samples across 108 cell types. Interactions annotated with regulatory genes and GWAS catalog SNPs. Uniform processing with HiC-Pro, hg19, loop calling with FitHiChIP and Hichipper. [Download](http://health.tsinghua.edu.cn/hichipdb/download.php) of factor-specific and total data. Anchor data: id,anchor,annotation,symbol,ensembl,entrezID,description,geneDistance,geneChr,geneStart,geneEnd,geneLength,geneStrand,snp,snpAllele,snpChrom,snpPosition. Loop data: id,anchor1ID,anchor1,anchor1Symbol,anchor1SnpAllele,anchor1Snp,anchor2ID,anchor2,anchor2Symbol,anchor2SnpAllele,anchor2Snp,count,qValue,normCount,geoID,sampleID,ChIP,tissue,organ,cellLine,pipeline. <details>
     <summary>Paper</summary>
     Zeng, Wanwen, Qiao Liu, Qijin Yin, Rui Jiang, and Wing Hung Wong. “HiChIPdb: A Comprehensive Database of HiChIP Regulatory Interactions.” Nucleic Acids Research, October 10, 2022, gkac859. https://doi.org/10.1093/nar/gkac859.
 </details>
@@ -148,6 +148,11 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 
 # Cancer
+
+- Enhancer connectome (H3K27ac HiChIP) of 69 tumor samples spanning 15 primary human cancers from TCGA. Three types of enhancer usage - static, gain, dynamic rewiring (110 driver oncogenes, Bailey 2018). Noncancer cells show enhancer landscape of immune escape. Integration with other TCGA data (ATAC-seq, RNA-seq, WGS, SNP genotyping calls). Differential H3K27ac peaks and loops using feature binarization. Considering copy number when evaluating enhancer activity. Methods: ArchR, HiC-Pro, Juicer Tools, FitHiChIP (with CombineNearmyInteractions), normalization with DESeq2, chromVARmotifs, AmpliconSuite-pipeline. [GitHub](https://github.com/NCICCGPO/HiChIP-Manuscript). [Processed data](https://gdc.cancer.gov/about-data/publications/TCGA-HiChIP-2024). <details>
+    <summary>Paper</summary>
+    Yost, Kathryn E., Yanding Zhao, King L. Hung, Kaiyuan Zhu, Duo Xu, M. Ryan Corces, Shadi Shams, et al. “Three-Dimensional Genome Landscape of Primary Human Cancers.” Nature Genetics 57, no. 5 (May 2025): 1189–1200. https://doi.org/10.1038/s41588-025-02188-0.
+</details>
 
 - Doxorubicin effect on 3D Chromation (also, additional Top2 inhibitors, ICRF193). The human retinal pigment epithelial RPE-1 cells (WT and 18h post-treatment), Hi-C (Juicer, cooltools, TopDom), ChIP-seq (CTCF, RAD21, H3K27ac), RNA-seq. Reduction of local interactions at active promoters, increase in CTCF binding and redistribution of RAD21 around H3K27ac. Differential region analysis (10kb sliding window, log2 fold change, hg19 only) [Python script](https://keeper.mpdl.mpg.de/d/d6a1c0581af240d8bb9f/), no enrichment of differential Hi-C regions in differential genes, many differential Hi-C regions do not overlap differential CTCF, RAD21 redistributes around H3K27ac. Hi-C, ChIP-seq and RNA-seq data are at [GSE215325](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215325). <details>
     <summary>Paper</summary>

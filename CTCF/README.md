@@ -29,6 +29,11 @@
 
 ## Experimentally obtained ChIP-seq data  
 
+- CTCF footprinting with MNase HiChIP in K562. Short (<80bp) CTCF-protected fragments and longer (>120bp) nucleosome-protected fragments, alignment with upstream (16bp) and core (19bp) motif parts. Region Capture Micro-C in mESCs to identify CTCF-cohesin occupancy, cohesin depletion with auxin. Fully extruded loops are rare. Active chromatin impedes extrusion. Integration with other ChIP-seq and Hi-C datasets. CTCF Analyzer (with) Multinomial Estimation (CAMEL), a tool to detect significant CTCF footprints at near base-pair resolution. [GitHub](https://github.com/aryeelab/cohesin_extrusion_reproducibility) with detailed scripts for all prepeocessing and analyses. GEO [GSE285087](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285087) PAIRS data. <details>
+    <summary>Paper</summary>
+    Sept, Corriene E., Y. Esther Tak, Viraat Goel, Mital S. Bhakta, Christian G. Cerda-Smith, Haley M. Hutchinson, Marco Blanchette, et al. “High-Resolution CTCF Footprinting Reveals Impact of Chromatin State on Cohesin Extrusion.” Nature Communications 16, no. 1 (May 15, 2025): 4506. https://doi.org/10.1038/s41467-025-57775-w.
+</details>
+
 - CTCF clusters at TAD boundaries, over extended genomic intervals, CTCF clusters correlate with insulation score. Nano-C and 4C-seq on mESC cells, detailed dissection of CTCF clustering and contribution to domain boundary formation. [Processed ChIP-seq, Nano-C, 4C-seq data](https://data.mendeley.com/datasets/g7b4z8957z/1). [Supplementary material](https://www.biorxiv.org/content/10.1101/2021.04.15.440007v1.supplementary-material): CTCF ChIP-seq peaks in mESCs, over 83K peaks with at least one significant CTCF binding motif, mm10, Extended Data Table 1. Coordinates of TADs, genome-wide insulation scores and genome-wide derivative insulation scores are provided in Extended Data Tables 3-5.
     - Chang, Li-Hsin, Sourav Ghosh, Andrea Papale, Mélanie Miranda, Vincent Piras, Jéril Degrouard, Mallory Poncelet, et al. “[A Complex CTCF Binding Code Defines TAD Boundary Structure and Function](https://doi.org/10.1101/2021.04.15.440007).” Preprint. Genetics, April 15, 2021.
 

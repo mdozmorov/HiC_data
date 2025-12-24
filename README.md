@@ -77,6 +77,12 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
          Reiff, S.B., Schroeder, A.J., Kırlı, K. et al. The 4D Nucleome Data Portal as a resource for searching and visualizing curated nucleomics data. Nat Commun 13, 2365 (02 May 2022). https://doi.org/10.1038/s41467-022-29697-4
 </details>
 
+
+- H1 embryonic stem cells (H1 cells) and immortalized foreskin fibroblasts (HFFc6 cells). Analysis of 3D assays (Hi-C, Micro-C, SPRITE, GAM), targeted technologies (ChIA-PET PolII and CTCF, PLAC-seq H3K4me3), submuclear positioning (TSA-seq, DamID). Integrative analysis, together with DNA sequence, gene expression, histone marks, DNA replication timing, single-cell Hi-C, imaging. Datasets differ (Micro-C has the largest dynamic range, SPRITE/GAM - smallest; CTCF ChIA-PET captures insulator loops, PolII ChIA-PET and H3K4me3 PLAC-seq - poised promoters, enhancers, transcription-related loops), complement each other. TAD/Loop prediction (insulation score, 3dNetMod, HiCCUPS, Peakachu) and validation. Loops are not created equal, six loop clusters, CTCF bound and unbound. 10 SPIN states for spatial compartmentalization, their association with histone marks, chromatin-associated RNA (iMARGI technology). TADs vary in scHi-C but concordant with bulk. Integration of A/B compartments, SPIN states, TADs, subTADs, loops, association with replication timing. 3D structure reconstruction. New data: [loop calls](doi.org/10.5281/zenodo.17451616), [SPIN state annotations](https://data.4dnucleome.org/joint-analysis#spin-states), 3D models and 3D structure feature profiles. <details>
+    <summary>Paper</summary>
+    Dekker, J., Oksuz, B.A., Zhang, Y. et al. An integrated view of the structure and function of the human 4D nucleome. Nature (2025). https://doi.org/10.1038/s41586-025-09890-3
+</details>
+
 ## Lieberman-Aiden lab
 
 All HiC data released by Lieberman-Aiden group. Links to Amazon storage and GEO studies. http://aidenlab.org/data.html
@@ -130,7 +136,7 @@ Raw and normalized chromatin interaction matrices and TADs defined with DomainCa
 
 ## Feng Yue lab
 
-- [Data from Yue lab](http://3dgenome.fsm.northwestern.edu/publications.html)
+- [Data from Yue lab](https://3dgenome.fsm.northwestern.edu/datasets)
 
 - [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder), Wang, Xiaotao, Jie Xu, Baozhen Zhang, Ye Hou, Fan Song, Huijue Lyu, and Feng Yue. “[Genome-Wide Detection of Enhancer-Hijacking Events from Chromatin Interaction Data in Rearranged Genomes](https://doi.org/10.1038/s41592-021-01164-w).” Nature Methods, (June 2021)
     - [Supplementary Table 1](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-021-01164-w/MediaObjects/41592_2021_1164_MOESM3_ESM.xlsx) - Details of the 50 cancer Hi-C datasets, references to GEO and 4DNucleome.

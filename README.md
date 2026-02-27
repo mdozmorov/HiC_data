@@ -36,6 +36,32 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
 
 # Large collections
 
+- Catalog of TADs and TAD boundaries in human lymphoblastoid cell lines (LCLs). Investigating the impact of structural variants (SVs) on TAD boundaries. 14,764 TAD boundaries and 18,865 TADs, including 4596 sub-TADs Arrowhead and Insulation Score TAD callers (also DomainCaller, SpectralTAD). Hi-C data from 44 individuals from 1000 Genomes project (different ancestries), merged, the Hi-C contact map at 300bp resolution. 185 SVs (TAD–SVs), enriched (permutation) within ENCODE cCREs (enhancers, promoters). Also includes loops (HICCUPS) and compartments (fanc compartments). hg38 coordinates. [GitHub](https://github.com/shilab/Hi-C-integrative-catalog), [Hi-C .hic individual and merged data](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HGSVC2/working/20230515_Shi_hic_files/). [BED files](https://github.com/shilab/Hi-C-integrative-catalog/tree/catalog).
+```
+    2485 All_Compartment_domain_v1.bed
+   28341 All_Loop_domains_v1.bed
+     186 All_TAD_SV_v1.bed
+   14765 All_TAD_boundary_5kb_v1.bed
+   18866 All_TAD_cutoff_v1.bed
+```
+- [Supplementary Data](https://genome.cshlp.org/content/34/12/2304/suppl/DC1), downloaded in `data/Li_2024_TADs`
+  - `Supplemental_Table_S2.xlsx` - BED coordinates of 8,865 TADs, "chr", "TAD_Start", "TAD_End".
+  - `Supplemental_Table_S3.xlsx` - 14,764 TAD boundary locations of the Integrative Catalog. 5kb resolution, "boundary_start", "boundary_end", "boundary_score"
+  - `Supplemental_Table_S4.xlsx` - The comparison between our Integrative Catalog of TADs and the published TADs of human GM12878 released by ENCODE 
+|                         | LCLs catalog | GM12878 (Rao, et al) |
+|-------------------------|--------------|----------------------|
+| Calling resolution (kb) | 5            | 5                    |
+| TAD_min_size (kb)       | 20           | 60                   |
+| TAD_max_size (kb)       | 7265         | 3310                 |
+| TAD_mean_size (kb)      | 281.56       | 264.48               |
+| TAD_median_size (kb)    | 150          | 185                  |
+| TAD_number_count        | 18,865       | 10,044               |
+  - `Supplemental_Table_S5.xlsx` - Summary statistics of the SVs' associated test with boundary scores, Deletions and insertions
+<summary>Paper</summary>
+  <details>
+  Li, Chong, Marc Jan Bonder, Sabriya Syed, et al. “An Integrative TAD Catalog in Lymphoblastoid Cell Lines Discloses the Functional Impact of Deletions and Insertions in Human Genomes.” Genome Research 34, no. 12 (2024): 2304–18. https://doi.org/10.1101/gr.279419.124.
+</details>
+
 - [HiChIPdb](http://health.tsinghua.edu.cn/hichipdb/) - database of H3K27ac HiChIP experiments, human. 200 high-throughput HiChIP samples across 108 cell types. Interactions annotated with regulatory genes and GWAS catalog SNPs. Uniform processing with HiC-Pro, hg19, loop calling with FitHiChIP and Hichipper. [Download](http://health.tsinghua.edu.cn/hichipdb/download.php) of factor-specific and total data. Anchor data: id,anchor,annotation,symbol,ensembl,entrezID,description,geneDistance,geneChr,geneStart,geneEnd,geneLength,geneStrand,snp,snpAllele,snpChrom,snpPosition. Loop data: id,anchor1ID,anchor1,anchor1Symbol,anchor1SnpAllele,anchor1Snp,anchor2ID,anchor2,anchor2Symbol,anchor2SnpAllele,anchor2Snp,count,qValue,normCount,geoID,sampleID,ChIP,tissue,organ,cellLine,pipeline. <details>
     <summary>Paper</summary>
     Zeng, Wanwen, Qiao Liu, Qijin Yin, Rui Jiang, and Wing Hung Wong. “HiChIPdb: A Comprehensive Database of HiChIP Regulatory Interactions.” Nucleic Acids Research, October 10, 2022, gkac859. https://doi.org/10.1093/nar/gkac859.

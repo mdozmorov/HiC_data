@@ -44,7 +44,7 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
    14765 All_TAD_boundary_5kb_v1.bed
    18866 All_TAD_cutoff_v1.bed
 ```
-    <details>
+<details>
     <summary>Supplementary Data</summary>
 
     - [Supplementary Data](https://genome.cshlp.org/content/34/12/2304/suppl/DC1), downloaded in `data/Li_2024_TADs`
@@ -62,18 +62,16 @@ A (continuously updated) collection of references to Hi-C data and papers. Predo
     | TAD_number_count        | 18,865       | 10,044               |
 
       - `Supplemental_Table_S5.xlsx` - Summary statistics of the SVs' associated test with boundary scores, Deletions and insertions
+</details>
 
-    </details>
-
-    <details>
+<details>
     <summary>Paper</summary>
 
     Li, Chong, Marc Jan Bonder, Sabriya Syed, et al.  
     “An Integrative TAD Catalog in Lymphoblastoid Cell Lines Discloses the Functional Impact of Deletions and Insertions in Human Genomes.”  
     *Genome Research* 34, no. 12 (2024): 2304–18.  
     https://doi.org/10.1101/gr.279419.124.
-
-    </details>
+</details>
 
 - [HiChIPdb](http://health.tsinghua.edu.cn/hichipdb/) - database of H3K27ac HiChIP experiments, human. 200 high-throughput HiChIP samples across 108 cell types. Interactions annotated with regulatory genes and GWAS catalog SNPs. Uniform processing with HiC-Pro, hg19, loop calling with FitHiChIP and Hichipper. [Download](http://health.tsinghua.edu.cn/hichipdb/download.php) of factor-specific and total data. Anchor data: id,anchor,annotation,symbol,ensembl,entrezID,description,geneDistance,geneChr,geneStart,geneEnd,geneLength,geneStrand,snp,snpAllele,snpChrom,snpPosition. Loop data: id,anchor1ID,anchor1,anchor1Symbol,anchor1SnpAllele,anchor1Snp,anchor2ID,anchor2,anchor2Symbol,anchor2SnpAllele,anchor2Snp,count,qValue,normCount,geoID,sampleID,ChIP,tissue,organ,cellLine,pipeline. <details>
     <summary>Paper</summary>
